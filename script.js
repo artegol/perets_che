@@ -8,7 +8,7 @@ const menuItems = [
     "composition": "Пармезан, дор блю, бри, моцарелла, мёд, грецкий орех",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-syrnaya-tarelka.png",
+    "image": "image/generated/catalog/zakuski-syrnaya-tarelka.png",
     "source": "menu.xlsx"
   },
   {
@@ -20,7 +20,7 @@ const menuItems = [
     "composition": "Лосось х/к, тунец х/к, сельдь, майонез, соус ворчестер",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-rybnaya-tarelka.png",
+    "image": "image/generated/catalog/zakuski-rybnaya-tarelka.png",
     "source": "menu.xlsx"
   },
   {
@@ -32,7 +32,7 @@ const menuItems = [
     "composition": "Говядина, перепелиное яйцо, чиабатта Мясная основа: вырезка, каперсы, маринованные огурцы, лук репчатый, соус ворчестер, чеснок свежий, кетчуп, петрушка, масло оливковое, соль, перец, горчица зернистая, табаско",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-tar-tar-po-nashemu-receptu.png",
+    "image": "image/generated/catalog/zakuski-tar-tar-po-nashemu-receptu.png",
     "source": "menu.xlsx"
   },
   {
@@ -44,7 +44,7 @@ const menuItems = [
     "composition": "Бекон, куриный орех, краковская колбаса, говядина, корейка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-myasnaya-tarelka.png",
+    "image": "image/generated/catalog/zakuski-myasnaya-tarelka.png",
     "source": "menu.xlsx"
   },
   {
@@ -56,7 +56,7 @@ const menuItems = [
     "composition": "Маринованная капуста, огурцы, томаты, черемша, чеснок",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-solenya-i-marinady.png",
+    "image": "image/generated/catalog/zakuski-solenya-i-marinady.png",
     "source": "menu.xlsx"
   },
   {
@@ -68,7 +68,7 @@ const menuItems = [
     "composition": "Сало соленое, бородинский хлеб, чеснок, зелёный лук, горчица, хрен",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-salo-solenoe.png",
+    "image": "image/generated/catalog/zakuski-salo-solenoe.png",
     "source": "menu.xlsx"
   },
   {
@@ -80,7 +80,7 @@ const menuItems = [
     "composition": "Сельдь, картофель отварной или обжаренный на выбор, маринованный красный лук (яблочный уксус, растительное масло, соль, сахар)",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-seld-s-kartofelem.png",
+    "image": "image/generated/catalog/zakuski-seld-s-kartofelem.png",
     "source": "menu.xlsx"
   },
   {
@@ -92,7 +92,7 @@ const menuItems = [
     "composition": "Оливки, маслины",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-olivki-masliny.png",
+    "image": "image/generated/catalog/zakuski-olivki-masliny.png",
     "source": "menu.xlsx"
   },
   {
@@ -104,7 +104,7 @@ const menuItems = [
     "composition": "Огурцы, томаты, болгарский перец, черри",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-svezhie-ovoschi.png",
+    "image": "image/generated/catalog/zakuski-svezhie-ovoschi.png",
     "source": "menu.xlsx"
   },
   {
@@ -116,7 +116,7 @@ const menuItems = [
     "composition": "Вяленые томаты, специи, масло",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/zakuski-vyalenye-tomaty.png",
+    "image": "image/generated/catalog/zakuski-vyalenye-tomaty.png",
     "source": "menu.xlsx"
   },
   {
@@ -128,7 +128,7 @@ const menuItems = [
     "composition": "Говядина вырезка, картофель отварной обжаренный, маринованные огурцы, красный лук, домашний майонез, соус кимчи",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-firmennyy-s-govyadinoy.png",
+    "image": "image/generated/catalog/salaty-firmennyy-s-govyadinoy.png",
     "source": "menu.xlsx"
   },
   {
@@ -140,7 +140,7 @@ const menuItems = [
     "composition": "Говядина, болгарский перец гриль, томаты, красный лук, кинза, сыр дор блю, салатная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-s-govyadinoy-i-dor-blyu.png",
+    "image": "image/generated/catalog/salaty-s-govyadinoy-i-dor-blyu.png",
     "source": "menu.xlsx"
   },
   {
@@ -152,7 +152,7 @@ const menuItems = [
     "composition": "Куриная грудка, обжаренная на гриле, ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь»",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-cezar-s-kurinym-file.png",
+    "image": "image/generated/catalog/salaty-cezar-s-kurinym-file.png",
     "source": "menu.xlsx"
   },
   {
@@ -164,7 +164,7 @@ const menuItems = [
     "composition": "Куриное филе бедра, домашняя колбаса, шампиньоны, картофель, квашеная капуста, красный лук, медово-горчичная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-fermerskiy-s-kuricey-i-kolbaskami.png",
+    "image": "image/generated/catalog/salaty-fermerskiy-s-kuricey-i-kolbaskami.png",
     "source": "menu.xlsx"
   },
   {
@@ -176,7 +176,7 @@ const menuItems = [
     "composition": "Колбаса домашняя, картофель отварной, сельдерей, яйцо, болгарский перец, зеленый лук, домашний майонез, зернистая горчица, соус ворчестер",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-amerikanskiy-kartofelnyy.png",
+    "image": "image/generated/catalog/salaty-amerikanskiy-kartofelnyy.png",
     "source": "menu.xlsx"
   },
   {
@@ -188,7 +188,7 @@ const menuItems = [
     "composition": "Лосось, креметта, ромейн, айсберг, руккола, черри, кунжут, медово-горчичная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-figaro.png",
+    "image": "image/generated/catalog/salaty-figaro.png",
     "source": "menu.xlsx"
   },
   {
@@ -200,7 +200,7 @@ const menuItems = [
     "composition": "Лосось, обжаренный на гриле, сверху смазывается соусом песто, ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь», соус песто",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-cezar-s-lososem.png",
+    "image": "image/generated/catalog/salaty-cezar-s-lososem.png",
     "source": "menu.xlsx"
   },
   {
@@ -212,7 +212,7 @@ const menuItems = [
     "composition": "Обжаренные креветки, сверху смазываются соусом песто, ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь», соус песто",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-cezar-s-krevetkami.png",
+    "image": "image/generated/catalog/salaty-cezar-s-krevetkami.png",
     "source": "menu.xlsx"
   },
   {
@@ -224,7 +224,7 @@ const menuItems = [
     "composition": "Креветки в хрустящей панировке, ромейн, айсберг, руккола, огурцы, черри, красный лук, кунжут, кунжутная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-s-hrustyaschimi-krevetkami.png",
+    "image": "image/generated/catalog/salaty-s-hrustyaschimi-krevetkami.png",
     "source": "menu.xlsx"
   },
   {
@@ -236,7 +236,7 @@ const menuItems = [
     "composition": "Халлуми, томаты черри, груша, кинза, красный лук, салатная заправка В зависимости от сезона груша в блюде может быть заменена на клубнику",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-salat-s-syrom-halumi.png",
+    "image": "image/generated/catalog/salaty-salat-s-syrom-halumi.png",
     "source": "menu.xlsx"
   },
   {
@@ -248,7 +248,7 @@ const menuItems = [
     "composition": "Баклажаны, запанированные и обжаренные во фритюре, ромейн, айсберг, руккола, томаты, красный лук, кинза, салатная заправка, соус сладкий чили",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-salat-s-hrustyaschimi-baklazhanami.png",
+    "image": "image/generated/catalog/salaty-salat-s-hrustyaschimi-baklazhanami.png",
     "source": "menu.xlsx"
   },
   {
@@ -260,7 +260,7 @@ const menuItems = [
     "composition": "Запеченая свёкла, ромейн, айсберг, руккола, креметта, чернослив, грецкий орех, гранатовая заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-s-pechenoy-svekloy-i-rukkoloy.png",
+    "image": "image/generated/catalog/salaty-s-pechenoy-svekloy-i-rukkoloy.png",
     "source": "menu.xlsx"
   },
   {
@@ -272,7 +272,7 @@ const menuItems = [
     "composition": "Томаты, вяленые томаты, черри, ромейн, айсберг, руккола, бальзамическая заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-sinoro-pomadoro.png",
+    "image": "image/generated/catalog/salaty-sinoro-pomadoro.png",
     "source": "menu.xlsx"
   },
   {
@@ -284,7 +284,7 @@ const menuItems = [
     "composition": "Ромейн, Айсберг, руккола, кабачки, брокколи отварная, свежий огурец,, фасоль романо, дольки грейпфрута,сыр пармезан, дроблёная фисташка, салатная заправка, лимонная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-zelenyy-salat.png",
+    "image": "image/generated/catalog/salaty-zelenyy-salat.png",
     "source": "menu.xlsx"
   },
   {
@@ -296,7 +296,7 @@ const menuItems = [
     "composition": "Ромейн, айсберг, томаты, огурцы, болгарский перец, маслины, фета, красный лук, орегано и итальянская заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-grecheskiy.png",
+    "image": "image/generated/catalog/salaty-grecheskiy.png",
     "source": "menu.xlsx"
   },
   {
@@ -308,7 +308,7 @@ const menuItems = [
     "composition": "Ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь»",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-cezar.png",
+    "image": "image/generated/catalog/salaty-cezar.png",
     "source": "menu.xlsx"
   },
   {
@@ -320,7 +320,7 @@ const menuItems = [
     "composition": "Ромейн, айсберг, капуста краснокачанная, свежая морковь, стручковая фасоль, болгарский перец, яйцо, томаты, имбирная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/salaty-iz-sezonnyh-ovoschey.png",
+    "image": "image/generated/catalog/salaty-iz-sezonnyh-ovoschey.png",
     "source": "menu.xlsx"
   },
   {
@@ -332,7 +332,7 @@ const menuItems = [
     "composition": "Куриный бульон, лосось, мидии, креветки, томаты конкассе, крем из сушёных томатов, чеснок, зеленый лук, петрушка, укроп",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/supy-dary-morya.png",
+    "image": "image/generated/catalog/supy-dary-morya.png",
     "source": "menu.xlsx"
   },
   {
@@ -344,7 +344,7 @@ const menuItems = [
     "composition": "Бульон (куриный бульон, паста том ям, имбирь, цедра лайма, сок лайма, кокосовые сливки), креветки, мидии в панцире, филе мидий, черри, лайм, кинза, подается с рисом",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/supy-tom-yam.png",
+    "image": "image/generated/catalog/supy-tom-yam.png",
     "source": "menu.xlsx"
   },
   {
@@ -356,7 +356,7 @@ const menuItems = [
     "composition": "Мясном бульон (готовится на свиных ребрышках с кореньями), мясо со свиных ребрышек, капуста белокочанная, лук репчатый, морковь, свекла, томатная паста, соль, перец, сахар, уксус, зеленый лук, петрушка укроп. Подается со сметаной и свиным ребрышком",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/supy-borsch-s-kopchenostyami.png",
+    "image": "image/generated/catalog/supy-borsch-s-kopchenostyami.png",
     "source": "menu.xlsx"
   },
   {
@@ -368,7 +368,7 @@ const menuItems = [
     "composition": "Куриный бульон, треска, зеленый лук, петрушка, укроп",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/supy-uha-iz-beloy-ryby.png",
+    "image": "image/generated/catalog/supy-uha-iz-beloy-ryby.png",
     "source": "menu.xlsx"
   },
   {
@@ -380,7 +380,7 @@ const menuItems = [
     "composition": "Куриный бульон (курица, морковь, репчатый лук, соль и черный перец горошком), лапша собственного производства (мягкие сорта пшеничной муки типа 00, яичный меланж, яичный желток, соль), отварное куриное яйцо, гренки, зеленый лук, петрушка, укроп",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/supy-bulon-kurinyy.png",
+    "image": "image/generated/catalog/supy-bulon-kurinyy.png",
     "source": "menu.xlsx"
   },
   {
@@ -392,7 +392,7 @@ const menuItems = [
     "composition": "Отруб: Short Loin (начало отруба) Состав стейка: Стриплойн Филе миньон Т-образная кость Особенности: Самый крупный стейк в разделе Содержит сразу два разных вида мяса Самая большая часть вырезки среди всех стейков на кости Кость усиливает вкус и аромат Вкус: Стриплойн — насыщенный мясной Вырезка — нежная и мягкая Прожарка: Рекомендуется Medium Rare / Medium При прожарке ориентироваться на желаемую степень для вырезки",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/steyki-porterhaus-tonkiy-kray-vyrezka-i-t-obraznaya-kost.png",
+    "image": "image/generated/catalog/steyki-porterhaus-tonkiy-kray-vyrezka-i-t-obraznaya-kost.png",
     "source": "menu.xlsx"
   },
   {
@@ -404,7 +404,7 @@ const menuItems = [
     "composition": "Отруб: Толстый край (Rib Eye) Состав стейка: Мраморная говядина Жировой «глазок» Особенности: Самый популярный стейк в меню Высокая мраморность Максимальная сочность Универсальный выбор для первого знакомства со стейками Вкус: Насыщенный Сливочно-мясной Очень сочный Прожарка: Medium Допустимо Medium Rare",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/steyki-ribay-tolstyy-kray.png",
+    "image": "image/generated/catalog/steyki-ribay-tolstyy-kray.png",
     "source": "menu.xlsx"
   },
   {
@@ -416,7 +416,7 @@ const menuItems = [
     "composition": "Отруб: Тонкий край (Striploin) Особенности: Также известен как New York Steak Имеет характерную жировую полоску по краю Более постный, чем Рибай Один из самых популярных классических стейков Вкус: Ярко выраженный мясной Более плотная структура Прожарка: Medium Rare / Medium",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/steyki-striployn-tonkiy-kray.png",
+    "image": "image/generated/catalog/steyki-striployn-tonkiy-kray.png",
     "source": "menu.xlsx"
   },
   {
@@ -428,7 +428,7 @@ const menuItems = [
     "composition": "Отруб: Тонкая диафрагма Категория: Альтернативный стейк Особенности: Крупные мясные волокна Один из самых насыщенных по вкусу стейков Исторически считался любимым стейком мясников Сохраняет сочность даже при высокой прожарке Вкус: Максимально мясной Яркий и насыщенный Прожарка: Medium / Medium Well",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/steyki-skert-steyk-tonkaya-diafragma.png",
+    "image": "image/generated/catalog/steyki-skert-steyk-tonkaya-diafragma.png",
     "source": "menu.xlsx"
   },
   {
@@ -440,7 +440,7 @@ const menuItems = [
     "composition": "Отруб: Центральная часть говяжьей вырезки Особенности: Самый нежный стейк в меню Практически не содержит внутренних жировых прослоек Вырезка не участвует в движении животного, поэтому мышечные волокна остаются максимально мягкими Ценится за текстуру, а не за выраженную мраморность Вкус: Нежный и деликатный Менее насыщенный, чем у Рибая или Стриплойна Хорошо сочетается с мясным соусом Прожарка: Medium Rare / Medium",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/steyki-file-minon-vyrezka.png",
+    "image": "image/generated/catalog/steyki-file-minon-vyrezka.png",
     "source": "menu.xlsx"
   },
   {
@@ -452,7 +452,7 @@ const menuItems = [
     "composition": "Говядина вырезка, овощной салат (ромейн, айсберг, свежий огурец, помидор, перец болгарский, заправка итальянская), мясной соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-medalony-iz-govyadiny-s-salatom-iz-svezhih-ovoschey.png",
+    "image": "image/generated/catalog/myasnye-blyuda-medalony-iz-govyadiny-s-salatom-iz-svezhih-ovoschey.png",
     "source": "menu.xlsx"
   },
   {
@@ -464,7 +464,7 @@ const menuItems = [
     "composition": "Филе мраморной говядины, сливки, репчатый лук, картофельное пюре, сливочное масло, украшается черри и петрушкой",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-befstroganov-s-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/myasnye-blyuda-befstroganov-s-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -476,7 +476,7 @@ const menuItems = [
     "composition": "Говяжья котлета, приготовленная из говядины зернового откорма, картофельное пюре, грибной соус, украшается петрушкой",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-govyazhya-kotleta-s-gribnym-sousom-i-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/myasnye-blyuda-govyazhya-kotleta-s-gribnym-sousom-i-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -488,7 +488,7 @@ const menuItems = [
     "composition": "Томлёные щечки (предварительно томятся с морковью, репчатым луком, тимьяном, чесноком, сахаром в томатной пасте), картофельное пюре, украшается зеленым луком",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-govyazhi-schechki-s-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/myasnye-blyuda-govyazhi-schechki-s-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -500,7 +500,7 @@ const menuItems = [
     "composition": "Отварной говяжий язык, картофельное пюре, глазурь из кисло-сладкого и устричного соусов, грибной соус, украшается зеленым луком",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-yazyk-govyazhiy-s-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/myasnye-blyuda-yazyk-govyazhiy-s-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -512,7 +512,7 @@ const menuItems = [
     "composition": "Сердце говяжье отварное, обжаренный лук, чеснок, сливки, грибной соус, украшается миксом зелени (зеленый лук, укроп, петрушка)",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-serdce-byka-v-slivochno-gribnom-souse.png",
+    "image": "image/generated/catalog/myasnye-blyuda-serdce-byka-v-slivochno-gribnom-souse.png",
     "source": "menu.xlsx"
   },
   {
@@ -524,7 +524,7 @@ const menuItems = [
     "composition": "Свиные щёчки, соль, перец, чиабатта, мясной соус, украшается зеленым луком",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-schechki-svinye.png",
+    "image": "image/generated/catalog/myasnye-blyuda-schechki-svinye.png",
     "source": "menu.xlsx"
   },
   {
@@ -536,7 +536,7 @@ const menuItems = [
     "composition": "Свинина (шея), фирменный соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-shmat-myasa.png",
+    "image": "image/generated/catalog/myasnye-blyuda-shmat-myasa.png",
     "source": "menu.xlsx"
   },
   {
@@ -548,7 +548,7 @@ const menuItems = [
     "composition": "Свинина (шея), замаринованная в специях (соль, перец, сахар, орегано, лимонный фреш), маринованный красный лук (яблочный уксус, растительное масло, соль, сахар) и шашлычный соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-shashlyk-iz-svininy-s-marinovannym-lukom-i-shashlychnym.png",
+    "image": "image/generated/catalog/myasnye-blyuda-shashlyk-iz-svininy-s-marinovannym-lukom-i-shashlychnym.png",
     "source": "menu.xlsx"
   },
   {
@@ -560,7 +560,7 @@ const menuItems = [
     "composition": "Свинина (карбонат), картофельные дольки, фирменный соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-svinina-na-grile-s-kartofelnymi-dolkami.png",
+    "image": "image/generated/catalog/myasnye-blyuda-svinina-na-grile-s-kartofelnymi-dolkami.png",
     "source": "menu.xlsx"
   },
   {
@@ -572,7 +572,7 @@ const menuItems = [
     "composition": "Филе куриной грудки, белые грибы, шампиньоны, сливки, соус песто, картофельное пюре, масло сливочное, мясной соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-file-cyplenka-v-slivochno-gribnom-souse.png",
+    "image": "image/generated/catalog/myasnye-blyuda-file-cyplenka-v-slivochno-gribnom-souse.png",
     "source": "menu.xlsx"
   },
   {
@@ -584,7 +584,7 @@ const menuItems = [
     "composition": "Филе куриной грудки замаринованное в специях (перцы, травы, соль), картофельные дольки, фирменный соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-kurinaya-grudka-s-kartofelnymi-dolkami.png",
+    "image": "image/generated/catalog/myasnye-blyuda-kurinaya-grudka-s-kartofelnymi-dolkami.png",
     "source": "menu.xlsx"
   },
   {
@@ -596,7 +596,7 @@ const menuItems = [
     "composition": "Филе куриного бедра, овощи гриль, шашлычный соус, чесночно-укропная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-file-bedra-s-ovoschami-na-grile.png",
+    "image": "image/generated/catalog/myasnye-blyuda-file-bedra-s-ovoschami-na-grile.png",
     "source": "menu.xlsx"
   },
   {
@@ -608,7 +608,7 @@ const menuItems = [
     "composition": "Утиная ножка приготовленная методом конфи (длительное томление на низкой температуре) со специями (соль, перец, 5 специй, гвоздика, корица, бадьян, перец, фенхель, сухой чеснок ), картофельное пюре, сливочное масло, украшается зеленым луком",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-utinaya-nozhka-s-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/myasnye-blyuda-utinaya-nozhka-s-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -620,7 +620,7 @@ const menuItems = [
     "composition": "Халуми, вишневый соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/myasnye-blyuda-gril-chiz.png",
+    "image": "image/generated/catalog/myasnye-blyuda-gril-chiz.png",
     "source": "menu.xlsx"
   },
   {
@@ -632,7 +632,7 @@ const menuItems = [
     "composition": "Тунец, крем-бальзамик, салат (ромейн, айсберг, руккола, черри, томаты вяленные, перец болгарский, каперсы, кедровый орех, имбирная заправка)",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-steyk-iz-tunca-s-hrustyaschim-salatom.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-steyk-iz-tunca-s-hrustyaschim-salatom.png",
     "source": "menu.xlsx"
   },
   {
@@ -644,7 +644,7 @@ const menuItems = [
     "composition": "Лосось, овощи гриль, песто, лимон",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-losos-na-grile-s-ovoschami-na-grile.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-losos-na-grile-s-ovoschami-na-grile.png",
     "source": "menu.xlsx"
   },
   {
@@ -656,7 +656,7 @@ const menuItems = [
     "composition": "Филе трески, пюре картофельное, яйцо куриное отварное, масло сливочное, зелень",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-treska-pod-polskim-sousom-s-kartofelnym-pyure.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-treska-pod-polskim-sousom-s-kartofelnym-pyure.png",
     "source": "menu.xlsx"
   },
   {
@@ -668,7 +668,7 @@ const menuItems = [
     "composition": "Филе трески, панировка (мука, крахмал, специи), салат (ромейн, айсберг, руккола, черри, морковь, редис, сельдерей, кунжутная заправка)",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-belaya-ryba-v-hrustyaschey-panirovke-s-salatom-iz-.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-belaya-ryba-v-hrustyaschey-panirovke-s-salatom-iz-.png",
     "source": "menu.xlsx"
   },
   {
@@ -680,7 +680,7 @@ const menuItems = [
     "composition": "Королевские креветки, оливковое масло, сок лимона, тимьян, чеснок, ореховый соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-file-korolevskih-krevetok-s-orehovym-sousom.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-file-korolevskih-krevetok-s-orehovym-sousom.png",
     "source": "menu.xlsx"
   },
   {
@@ -692,7 +692,7 @@ const menuItems = [
     "composition": "Мидии в панцире, лук репчатый, сливки, сыр дор блю, багет",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-midii-v-souse-blyu-chiz.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-midii-v-souse-blyu-chiz.png",
     "source": "menu.xlsx"
   },
   {
@@ -704,7 +704,7 @@ const menuItems = [
     "composition": "Креветки, рис отварной, сливочное масло, соль, перец, чеснок, зелёный лук",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-krevetki-i-ris.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-krevetki-i-ris.png",
     "source": "menu.xlsx"
   },
   {
@@ -716,7 +716,7 @@ const menuItems = [
     "composition": "Филе мидий, креветки, томатный соус, чеснок, чили, петрушка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/ryba-i-moreprodukty-skovoroda-midiy-i-krevetok.png",
+    "image": "image/generated/catalog/ryba-i-moreprodukty-skovoroda-midiy-i-krevetok.png",
     "source": "menu.xlsx"
   },
   {
@@ -728,7 +728,7 @@ const menuItems = [
     "composition": "Булочка для бургера, говяжья котлета, тушеный репчатый лук, яблоко, брусничный соус, соус устричный майонез",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/burgery-s-brusnikoy-i-mramornoy-govyadinoy.png",
+    "image": "image/generated/catalog/burgery-s-brusnikoy-i-mramornoy-govyadinoy.png",
     "source": "menu.xlsx"
   },
   {
@@ -740,7 +740,7 @@ const menuItems = [
     "composition": "Булочка для бургера, говяжья котлета, сыр чеддер, салат айсберг, помидор, острый перец халапеньо, лук красный, соус гриль",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/burgery-bif.png",
+    "image": "image/generated/catalog/burgery-bif.png",
     "source": "menu.xlsx"
   },
   {
@@ -752,7 +752,7 @@ const menuItems = [
     "composition": "Булочка для бургера, свиная котлета, сыр чеддер, салат айсберг, маринованный красный лук (яблочный уксус, растительное масло, соль, сахар), соус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/burgery-kaban-burger.png",
+    "image": "image/generated/catalog/burgery-kaban-burger.png",
     "source": "menu.xlsx"
   },
   {
@@ -764,7 +764,7 @@ const menuItems = [
     "composition": "Свиные ребра замаринованные в специях (орегано, соль, перец, масло), горчица, кетчуп, квашенная капуста",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/rebra-svinye-rebra-gril.png",
+    "image": "image/generated/catalog/rebra-svinye-rebra-gril.png",
     "source": "menu.xlsx"
   },
   {
@@ -776,7 +776,7 @@ const menuItems = [
     "composition": "Свиные ребра длительного томления, соус барбекю. От классических ребер отличаются большей мясистостью и жирностью.",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/rebra-rebra-bbq.png",
+    "image": "image/generated/catalog/rebra-rebra-bbq.png",
     "source": "menu.xlsx"
   },
   {
@@ -788,7 +788,7 @@ const menuItems = [
     "composition": "Свиные томленые ребра, приготовленные на гриле с сеульским соусом с арахисом, зеленый лук",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/rebra-rebryshki-po-seulski.png",
+    "image": "image/generated/catalog/rebra-rebryshki-po-seulski.png",
     "source": "menu.xlsx"
   },
   {
@@ -800,7 +800,7 @@ const menuItems = [
     "composition": "Картофель, сливки, сливочное масло, соль",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-pyure-klassicheskoe.png",
+    "image": "image/generated/catalog/garniry-pyure-klassicheskoe.png",
     "source": "menu.xlsx"
   },
   {
@@ -812,7 +812,7 @@ const menuItems = [
     "composition": "Брокколи, чеснок, соль, пармезан, лимонная заправка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-brokkoli-s-parmezanom.png",
+    "image": "image/generated/catalog/garniry-brokkoli-s-parmezanom.png",
     "source": "menu.xlsx"
   },
   {
@@ -824,7 +824,7 @@ const menuItems = [
     "composition": "Картофель фри, соль, паприка, подсолнечное масло, кетчуп",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-kartofel-fri.png",
+    "image": "image/generated/catalog/garniry-kartofel-fri.png",
     "source": "menu.xlsx"
   },
   {
@@ -836,7 +836,7 @@ const menuItems = [
     "composition": "Картофельные дольки, соль, подсолнечное масло, кетчуп",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-kartofelnye-dolki.png",
+    "image": "image/generated/catalog/garniry-kartofelnye-dolki.png",
     "source": "menu.xlsx"
   },
   {
@@ -848,7 +848,7 @@ const menuItems = [
     "composition": "Болгарский перец, цукини, баклажаны, шампиньоны, соль, перец, подсолнечное масло, соус песто",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-ovoschi-gril.png",
+    "image": "image/generated/catalog/garniry-ovoschi-gril.png",
     "source": "menu.xlsx"
   },
   {
@@ -860,7 +860,7 @@ const menuItems = [
     "composition": "Цукини, чеснок, соль, перец, подсолнечное масло, сметана",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-cukini-gril.png",
+    "image": "image/generated/catalog/garniry-cukini-gril.png",
     "source": "menu.xlsx"
   },
   {
@@ -872,7 +872,7 @@ const menuItems = [
     "composition": "Шампиньоны, черри, соль, перец, чеснок, петрушка, сливочное масло, бальзамический уксус",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-shampinony-gril.png",
+    "image": "image/generated/catalog/garniry-shampinony-gril.png",
     "source": "menu.xlsx"
   },
   {
@@ -884,7 +884,7 @@ const menuItems = [
     "composition": "Отварной обжаренный картофель, шампиньоны, укроп, чеснок, соль",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-kartofel-s-gribami.png",
+    "image": "image/generated/catalog/garniry-kartofel-s-gribami.png",
     "source": "menu.xlsx"
   },
   {
@@ -896,7 +896,7 @@ const menuItems = [
     "composition": "Гречка, белые грибы, лук, морковь, соль, сливочное масло, маринованный огурец",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-grechka-s-belymi-gribami.png",
+    "image": "image/generated/catalog/garniry-grechka-s-belymi-gribami.png",
     "source": "menu.xlsx"
   },
   {
@@ -908,7 +908,7 @@ const menuItems = [
     "composition": "Рис отварной, сливочное масло, соль",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/garniry-ris.png",
+    "image": "image/generated/catalog/garniry-ris.png",
     "source": "menu.xlsx"
   },
   {
@@ -920,7 +920,7 @@ const menuItems = [
     "composition": "Спагетти, креветки, филе мидий, черри, чили, чеснок, белое вино, сливки, петрушка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-s-moreproduktami.png",
+    "image": "image/generated/catalog/pasty-s-moreproduktami.png",
     "source": "menu.xlsx"
   },
   {
@@ -932,7 +932,7 @@ const menuItems = [
     "composition": "Спагетти, креветки, сухари панко, петрушка, соус из томатов (базилик, анчоусы, томаты сушеные, чеснок, чили, оливковое масло)",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-s-krevetkami.png",
+    "image": "image/generated/catalog/pasty-s-krevetkami.png",
     "source": "menu.xlsx"
   },
   {
@@ -944,7 +944,7 @@ const menuItems = [
     "composition": "Спагетти, Моцарелла, Пармезан, Чедер, Дор блю, сливки, кедровый орех",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-4-syra.png",
+    "image": "image/generated/catalog/pasty-4-syra.png",
     "source": "menu.xlsx"
   },
   {
@@ -956,7 +956,7 @@ const menuItems = [
     "composition": "Спагетти, бекон собственного производства, куриный бульон, сливки, сыр пармезан, яичный желток, черный молотый перец",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-karbonara.png",
+    "image": "image/generated/catalog/pasty-karbonara.png",
     "source": "menu.xlsx"
   },
   {
@@ -968,7 +968,7 @@ const menuItems = [
     "composition": "Спагетти, куриная грудка, репчатый лук, шампиньоны, белые грибы, черри, пармезан, песто",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-s-kuricey-i-belymi-gribami.png",
+    "image": "image/generated/catalog/pasty-s-kuricey-i-belymi-gribami.png",
     "source": "menu.xlsx"
   },
   {
@@ -980,7 +980,7 @@ const menuItems = [
     "composition": "Феттучини, соус болоньезе (рубленная говядина, репчатый лук, чеснок, орегано, протертые томаты), пармезан",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/pasty-boloneze.png",
+    "image": "image/generated/catalog/pasty-boloneze.png",
     "source": "menu.xlsx"
   },
   {
@@ -992,7 +992,7 @@ const menuItems = [
     "composition": "Яблоко, груша, банан, лимонный фреш, тимьян, сахар, мороженое, взбитые сливки",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/deserty-na-grile-fruktf-na-grile.png",
+    "image": "image/generated/catalog/deserty-na-grile-fruktf-na-grile.png",
     "source": "menu.xlsx"
   },
   {
@@ -1004,7 +1004,7 @@ const menuItems = [
     "composition": "Груша, творожный сыр, оливковое масло, тимьян, бальзамический крем",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/deserty-na-grile-grusha-so-slivochnym-syrom.png",
+    "image": "image/generated/catalog/deserty-na-grile-grusha-so-slivochnym-syrom.png",
     "source": "menu.xlsx"
   },
   {
@@ -1016,7 +1016,7 @@ const menuItems = [
     "composition": "Груша, оливковое масло, тимьян, мороженое, взбитые сливки, попкорн, карамельный топинг",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/deserty-na-grile-grusha-s-karamelyu-i-morozhenym.png",
+    "image": "image/generated/catalog/deserty-na-grile-grusha-s-karamelyu-i-morozhenym.png",
     "source": "menu.xlsx"
   },
   {
@@ -1028,7 +1028,7 @@ const menuItems = [
     "composition": "Оливковое масло Extra Virgin",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-olivkovoe-maslo.png",
+    "image": "image/generated/catalog/sousy-olivkovoe-maslo.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1040,7 +1040,7 @@ const menuItems = [
     "composition": "Горчица дижонская, уксус столовый 9%, соль, сахар, масло подсолнечное, яичный желток",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-domashniy-mayonez.png",
+    "image": "image/generated/catalog/sousy-domashniy-mayonez.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1052,7 +1052,7 @@ const menuItems = [
     "composition": "Вологодская сметана от производителя",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-smetana.png",
+    "image": "image/generated/catalog/sousy-smetana.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1064,7 +1064,7 @@ const menuItems = [
     "composition": "На основе натурального хрена",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-hren.png",
+    "image": "image/generated/catalog/sousy-hren.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1076,7 +1076,7 @@ const menuItems = [
     "composition": "Горчица от производителя",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-gorchica.png",
+    "image": "image/generated/catalog/sousy-gorchica.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1088,7 +1088,7 @@ const menuItems = [
     "composition": "Томатный кетчуп производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-ketchup.png",
+    "image": "image/generated/catalog/sousy-ketchup.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1100,7 +1100,7 @@ const menuItems = [
     "composition": "Оригинальный рецепт собственного производства",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-sous-barbekyu.png",
+    "image": "image/generated/catalog/sousy-sous-barbekyu.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1112,7 +1112,7 @@ const menuItems = [
     "composition": "Сырный соус производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-syrnyy-sous.png",
+    "image": "image/generated/catalog/sousy-syrnyy-sous.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1124,7 +1124,7 @@ const menuItems = [
     "composition": "Кетчуп, красный лук, кинза, базилик, петрушка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-shashlychnyy-sous.png",
+    "image": "image/generated/catalog/sousy-shashlychnyy-sous.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1136,7 +1136,7 @@ const menuItems = [
     "composition": "Говяжьи кости, лук шалот, лук порей, репчатый лук, морковь, корень петрушки, лавровый лист, черный и душистый перец, томатный соус, красное вино",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-myasnoy-sous.png",
+    "image": "image/generated/catalog/sousy-myasnoy-sous.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1148,7 +1148,7 @@ const menuItems = [
     "composition": "Соус Mutti, вяленые томаты, томаты в собственном соку, оливковое масло, масло вяленых томатов, перец чили, чеснок, соль, черный перец, соус барбекю, пармезан",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-firmennyy-sous.png",
+    "image": "image/generated/catalog/sousy-firmennyy-sous.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1160,7 +1160,7 @@ const menuItems = [
     "composition": "Базилик, петрушка, чеснок, соль, перец, оливковое масло, кедровый орех, пармезан",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-sous-bazilikovyy-pesto.png",
+    "image": "image/generated/catalog/sousy-sous-bazilikovyy-pesto.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1172,7 +1172,7 @@ const menuItems = [
     "composition": "Ореховый соус производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-orehovyy-sous.png",
+    "image": "image/generated/catalog/sousy-orehovyy-sous.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1184,7 +1184,7 @@ const menuItems = [
     "composition": "Цветочный мед производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-med.png",
+    "image": "image/generated/catalog/sousy-med.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1196,7 +1196,7 @@ const menuItems = [
     "composition": "Ягоды вишни, сахар, вода, коньяк",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "../image/generated/catalog/sousy-vishnevyy-sous.png",
+    "image": "image/generated/catalog/sousy-vishnevyy-sous.png",
     "source": "sauce.xlsx"
   }
 ];
