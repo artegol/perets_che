@@ -1,0 +1,4 @@
+*.graphml
+.~lock.menu.xlsx#
+.~lock.sauce.xlsx#
+*.xlsx
