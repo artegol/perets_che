@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PERETS - ресторан</title>
+    <meta
+      name="description"
+      content="Современный ресторан PERETS: меню, бронирование и контакты."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="PERETS">
+        <img src="../image/jpg/logo.png" alt="" />
+        <span>PERETS</span>
+      </a>
+
+      <nav class="top-nav" aria-label="Основная навигация">
+        <a href="#menu">Меню</a>
+        <a href="#about">О ресторане</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="account-link" href="#contacts">Забронировать</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="pepper-layer" aria-hidden="true">
+        <svg class="pepper-shape pepper-shape-one" viewBox="0 0 120 120">
+          <path class="pepper-stem" d="M78 18c9-8 18-9 27-4-11 1-17 7-20 18" />
+          <path
+            class="pepper-body"
+            d="M83 31c13 20 3 49-21 64-20 13-45 13-53 0-7-12 7-22 25-30 18-8 27-20 32-35 3-9 12-9 17 1Z"
+          />
+          <path class="pepper-cut" d="M67 35c-3 18-14 31-34 40" />
+        </svg>
+        <svg class="pepper-shape pepper-shape-two" viewBox="0 0 120 120">
+          <path class="pepper-stem" d="M78 18c9-8 18-9 27-4-11 1-17 7-20 18" />
+          <path
+            class="pepper-body"
+            d="M83 31c13 20 3 49-21 64-20 13-45 13-53 0-7-12 7-22 25-30 18-8 27-20 32-35 3-9 12-9 17 1Z"
+          />
+          <path class="pepper-cut" d="M67 35c-3 18-14 31-34 40" />
+        </svg>
+        <svg class="pepper-shape pepper-shape-three" viewBox="0 0 120 120">
+          <path class="pepper-stem" d="M78 18c9-8 18-9 27-4-11 1-17 7-20 18" />
+          <path
+            class="pepper-body"
+            d="M83 31c13 20 3 49-21 64-20 13-45 13-53 0-7-12 7-22 25-30 18-8 27-20 32-35 3-9 12-9 17 1Z"
+          />
+          <path class="pepper-cut" d="M67 35c-3 18-14 31-34 40" />
+        </svg>
+      </div>
+
+      <section class="hero" aria-label="Главная">
+        <div class="hero-media">
+          <img src="../image/jpg/IMG_0830-enhanced.jpg" alt="Интерьер ресторана PERETS" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Мясной ресторан</p>
+          <h1>PERETS</h1>
+          <p class="hero-copy">
+            Мы готовим на открытом огне!
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#menu">Смотреть меню</a>
+            <a class="button secondary" href="#contacts">Забронировать</a>
+          </div>
+        </div>
+        <div class="hero-hours" aria-label="Время работы">
+          <span>Сегодня открыто</span>
+          <strong>12:00 - 00:00</strong>
+          <small>Кухня работает до 22:30</small>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-head">
+          <p class="eyebrow">Меню</p>
+          <h2>Меню ресторана</h2>
+          <p>
+            Карточки собраны из актуальных таблиц меню и соусов. Наведите курсор,
+            чтобы раскрыть описание, состав и цену.
+          </p>
+        </div>
+
+        <div class="catalog">
+          <div class="category-tabs" aria-label="Категории меню" data-categories></div>
+          <div class="product-grid" data-products></div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-copy">
+          <p class="eyebrow">О ресторане</p>
+          <h2>Тихая современная кухня с характером</h2>
+          <div class="about-columns">
+            <p>
+              Мы бережно относимся к выбору и приготовлению продуктов более 10 лет.
+              Придя к нам в гости, вы попробуете разнообразие блюд, сделанных на
+              открытой кухне у вас на глазах.
+            </p>
+            <p>
+              В мясной лавке доступны качественные продукты собственного
+              производства. Чистый состав и ничего более: ремесленные колбасы,
+              отборные стейки, соусы, премиальные и натуральные закуски к столу,
+              за которыми вы с удовольствием вернетесь вновь.
+            </p>
+          </div>
+        </div>
+        <figure class="about-media">
+          <img src="../image/jpg/IMG_0835.JPG" alt="Открытая кухня PERETS" />
+          <figcaption>
+            <strong>10+</strong>
+            <span>лет бережной работы с продуктом</span>
+          </figcaption>
+        </figure>
+        <div class="about-fact">
+          <strong>open fire</strong>
+          <span>мясная лавка, открытая кухня и продукты собственного производства</span>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <div class="section-head gallery-head">
+          <div>
+            <p class="eyebrow">Галерея</p>
+            <h2>Атмосфера</h2>
+          </div>
+          <div class="gallery-controls" aria-label="Управление галереей">
+            <button class="gallery-button" type="button" data-gallery-prev aria-label="Назад">
+              <span>←</span>
+            </button>
+            <button class="gallery-button" type="button" data-gallery-next aria-label="Вперед">
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-carousel" data-gallery-carousel>
+          <div class="gallery-track" data-gallery-track>
+            <figure class="gallery-slide">
+              <img src="../image/jpg/IMG_0828.JPG" alt="Витрина ресторана" />
+              <figcaption>counter</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="../image/jpg/IMG_0822.JPG" alt="Столы в зале ресторана" />
+              <figcaption>dining room</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="../image/jpg/IMG_0831.JPG" alt="Зал ресторана" />
+              <figcaption>hall</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="../image/jpg/IMG_0835.JPG" alt="Открытая кухня" />
+              <figcaption>open kitchen</figcaption>
+            </figure>
+            <figure class="gallery-slide">
+              <img src="../image/jpg/IMG_0821.JPG" alt="Барная полка ресторана" />
+              <figcaption>details</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts-section" id="contacts">
+        <div>
+          <p class="eyebrow">Контакты</p>
+          <h2>Ждем вас каждый день</h2>
+        </div>
+        <div class="contacts-list">
+          <div>
+            <span>Адрес</span>
+            <strong>Череповец, Советский проспект, 45</strong>
+          </div>
+          <div>
+            <span>Время работы</span>
+            <strong>09:00 - 23:00</strong>
+          </div>
+          <div>
+            <span>Телефон</span>
+            <strong>30-22-06</strong>
+          </div>
+        </div>
+        <div class="map-placeholder" aria-label="Карта">
+          <span>Карта будет подключена на следующем этапе</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand footer-brand">
+        <img src="../image/jpg/logo.png" alt="" />
+        <span>PERETS</span>
+      </div>
+      <span>Демо-макет фронтенда для согласования GUI</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
