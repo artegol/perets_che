@@ -1216,6 +1216,7 @@ const els = {
 
 const pepperLayer = document.querySelector(".pepper-layer");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const prefersTapCards = window.matchMedia("(hover: none)");
 const STEAKS_NOTICE =
   "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), поэтому при приёме заказа необходимо обязательно уточнить желаемую прожарку и предложить гостю гарнир и соус";
 
@@ -1432,6 +1433,22 @@ if (els.categories) {
     state.activeCategory = button.dataset.category;
     renderCategories();
     renderProducts();
+  });
+}
+
+if (els.products) {
+  els.products.addEventListener("click", (event) => {
+    if (!prefersTapCards.matches) {
+      return;
+    }
+
+    const card = event.target.closest(".product-card");
+
+    if (!card || !els.products.contains(card)) {
+      return;
+    }
+
+    card.classList.toggle("is-open");
   });
 }
 
