@@ -2,3 +2,4 @@
 .~lock.menu.xlsx#
 .~lock.sauce.xlsx#
 *.xlsx
+.DS_Store
