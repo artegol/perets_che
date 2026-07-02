@@ -440,7 +440,7 @@ h3 {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: start;
   gap: 18px;
 }
@@ -514,10 +514,7 @@ h3 {
   place-items: center;
   height: 260px;
   padding: 22px 24px 14px;
-  background:
-    linear-gradient(rgba(41, 41, 39, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(41, 41, 39, 0.08) 1px, transparent 1px);
-  background-size: 34px 34px;
+  background: transparent;
 }
 
 .product-image img {
@@ -637,6 +634,10 @@ h3 {
   background: var(--paper-soft);
 }
 
+.about-copy h2 {
+  font-size: clamp(76px, 10vw, 136px);
+}
+
 .about-copy p:not(.eyebrow) {
   margin-bottom: 0;
   color: #4b4943;
@@ -683,27 +684,9 @@ h3 {
   line-height: 0.9;
 }
 
-.about-media figcaption span,
-.about-fact span {
+.about-media figcaption span {
   color: var(--muted);
   font-size: 13px;
-}
-
-.about-fact {
-  grid-column: 1 / -1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
-}
-
-.about-fact strong {
-  color: var(--accent);
-  font-family: var(--font-display);
-  font-size: clamp(40px, 8vw, 112px);
-  line-height: 0.9;
 }
 
 .gallery-head {
@@ -930,11 +913,6 @@ h3 {
 
   .about-media figcaption {
     left: 18px;
-  }
-
-  .about-fact {
-    align-items: flex-start;
-    flex-direction: column;
   }
 
   .gallery-head {
