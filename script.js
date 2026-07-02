@@ -1219,6 +1219,71 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 const prefersTapCards = window.matchMedia("(hover: none)");
 const STEAKS_NOTICE =
   "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), поэтому при приёме заказа необходимо обязательно уточнить желаемую прожарку.";
+const HIGHLIGHT_TYPES = {
+  hit: {
+    label: "Хит",
+    image: "image/generated/highlight/hit.png",
+  },
+  spicy: {
+    label: "Острое",
+    image: "image/generated/highlight/spicy.png",
+  },
+  sport: {
+    label: "Спортпит",
+    image: "image/generated/highlight/sport.png",
+  },
+};
+const ITEM_HIGHLIGHTS = {
+  2: ["sport"],
+  3: ["hit"],
+  5: ["spicy"],
+  11: ["hit"],
+  13: ["hit"],
+  14: ["hit"],
+  18: ["hit"],
+  19: ["hit"],
+  20: ["sport"],
+  21: ["hit"],
+  22: ["hit"],
+  24: ["hit", "sport"],
+  27: ["hit", "sport"],
+  29: ["hit", "spicy"],
+  30: ["hit"],
+  32: ["sport"],
+  33: ["sport"],
+  34: ["hit", "sport"],
+  35: ["hit", "sport"],
+  36: ["hit", "sport"],
+  37: ["hit", "sport"],
+  38: ["hit", "sport"],
+  41: ["hit"],
+  42: ["hit"],
+  43: ["hit"],
+  44: ["hit"],
+  45: ["hit"],
+  46: ["hit"],
+  47: ["sport"],
+  49: ["sport"],
+  50: ["hit", "sport"],
+  52: ["hit", "sport"],
+  53: ["hit", "sport"],
+  54: ["hit", "sport"],
+  55: ["hit"],
+  56: ["hit"],
+  57: ["sport"],
+  58: ["hit"],
+  60: ["hit", "sport"],
+  61: ["hit"],
+  64: ["hit"],
+  65: ["hit"],
+  66: ["hit", "spicy"],
+  67: ["hit"],
+  68: ["hit"],
+  77: ["hit"],
+  78: ["hit", "sport"],
+  80: ["hit"],
+  81: ["sport"],
+};
 
 const currency = new Intl.NumberFormat("ru-RU", {
   style: "currency",
@@ -1268,6 +1333,36 @@ function getDisplaySection(item) {
   return item.section;
 }
 
+function renderHighlights(item) {
+  const highlights = ITEM_HIGHLIGHTS[item.id] || [];
+
+  if (!highlights.length) {
+    return "";
+  }
+
+  const label = highlights.map((type) => HIGHLIGHT_TYPES[type].label).join(", ");
+  const icons = highlights
+    .map((type) => {
+      const highlight = HIGHLIGHT_TYPES[type];
+
+      return `
+        <img
+          src="${escapeHtml(highlight.image)}"
+          alt="${escapeHtml(highlight.label)}"
+          title="${escapeHtml(highlight.label)}"
+          loading="lazy"
+        />
+      `;
+    })
+    .join("");
+
+  return `
+    <div class="product-highlights" aria-label="${escapeHtml(label)}">
+      ${icons}
+    </div>
+  `;
+}
+
 function renderCategories() {
   if (!els.categories) {
     return;
@@ -1313,6 +1408,7 @@ function renderProducts() {
           <div class="product-image">
             <img src="${escapeHtml(item.image)}" alt="${escapeHtml(dishName)}" loading="lazy" />
           </div>
+          ${renderHighlights(item)}
           <div class="product-body">
             <div>
               <p class="product-meta">${escapeHtml(meta)}</p>
