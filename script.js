@@ -1234,6 +1234,12 @@ function formatPrice(value) {
   return currency.format(value).replace("RUB", "₽").trim();
 }
 
+function formatDishName(name) {
+  const normalizedName = String(name).trim().toLocaleLowerCase("ru-RU");
+
+  return normalizedName.charAt(0).toLocaleUpperCase("ru-RU") + normalizedName.slice(1);
+}
+
 function getPriceLabel(item) {
   return formatPrice(item.price) || item.priceLabel || "";
 }
@@ -1300,16 +1306,17 @@ function renderProducts() {
   const productCards = getFilteredItems()
     .map((item) => {
       const meta = [item.category, getDisplaySection(item)].filter(Boolean).join(" · ");
+      const dishName = formatDishName(item.name);
 
       return `
-        <article class="product-card" aria-label="${escapeHtml(item.name)}">
+        <article class="product-card" aria-label="${escapeHtml(dishName)}">
           <div class="product-image">
-            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy" />
+            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(dishName)}" loading="lazy" />
           </div>
           <div class="product-body">
             <div>
               <p class="product-meta">${escapeHtml(meta)}</p>
-              <h3 class="product-title">${escapeHtml(item.name)}</h3>
+              <h3 class="product-title">${escapeHtml(dishName)}</h3>
             </div>
             <div class="product-details">
               <p class="product-description">${escapeHtml(item.description)}</p>
