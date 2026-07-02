@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Oswald:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@400;500;700;800&family=Oswald:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -86,13 +86,22 @@
       </section>
 
       <section class="menu-section" id="menu">
-        <div class="section-head">
-          <p class="eyebrow">Меню</p>
+        <div class="section-head menu-head">
           <h2>Меню ресторана</h2>
-          <p>
-            Карточки собраны из актуальных таблиц меню и соусов. Наведите курсор,
-            чтобы раскрыть описание, состав и цену.
-          </p>
+          <div class="highlight-legend" aria-label="Пояснение меток блюд">
+            <div class="highlight-legend-item">
+              <img src="image/generated/highlight/hit.png" alt="Хит" />
+              <span>Хит</span>
+            </div>
+            <div class="highlight-legend-item">
+              <img src="image/generated/highlight/spicy.png" alt="Острое" />
+              <span>Острое</span>
+            </div>
+            <div class="highlight-legend-item">
+              <img src="image/generated/highlight/sport.png" alt="Спортпит" />
+              <span>Спортпит</span>
+            </div>
+          </div>
         </div>
 
         <div class="catalog">
@@ -105,27 +114,20 @@
         <div class="about-copy">
           <p class="eyebrow">О ресторане</p>
           <h2>open fire</h2>
-          <div class="about-columns">
-            <p>
-              Мы бережно относимся к выбору и приготовлению продуктов более 10 лет.
-              Придя к нам в гости, вы попробуете разнообразие блюд, сделанных на
-              открытой кухне у вас на глазах.
-            </p>
-            <p>
-              В мясной лавке доступны качественные продукты собственного
-              производства. Чистый состав и ничего более: ремесленные колбасы,
-              отборные стейки, соусы, премиальные и натуральные закуски к столу,
-              за которыми вы с удовольствием вернетесь вновь.
-            </p>
-          </div>
+          <p class="about-since">since 2014</p>
         </div>
-        <figure class="about-media">
-          <img src="image/jpg/IMG_0835.JPG" alt="Открытая кухня PERETS" />
-          <figcaption>
-            <strong>10+</strong>
-            <span>лет качественной работы с продуктом</span>
-          </figcaption>
-        </figure>
+        <div class="about-media" aria-label="Фотографии ресторана PERETS">
+          <figure class="about-photo about-photo-primary">
+            <img src="image/jpg/IMG_0835.JPG" alt="Открытая кухня PERETS" />
+            <figcaption>
+              <strong>10+</strong>
+              <span>лет качественной работы с продуктом</span>
+            </figcaption>
+          </figure>
+          <figure class="about-photo">
+            <img src="image/jpg/IMG_0831.JPG" alt="Зал ресторана PERETS" />
+          </figure>
+        </div>
       </section>
 
       <section class="gallery-section" id="gallery">
@@ -189,8 +191,13 @@
             <strong>30-22-06</strong>
           </div>
         </div>
-        <div class="map-placeholder" aria-label="Карта">
-          <span>Карта будет подключена на следующем этапе</span>
+        <div class="map-widget" aria-label="Карта">
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9a9a04d313238832652b8a6c0a866f6523f4c73da6c50ba31213327c2d8c2544&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+          ></script>
         </div>
       </section>
     </main>
