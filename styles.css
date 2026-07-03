@@ -129,6 +129,7 @@ textarea {
 .hero,
 .menu-section,
 .about-section,
+.lavka-section,
 .gallery-section,
 .contacts-section {
   position: relative;
@@ -383,6 +384,7 @@ h3 {
 
 .menu-section,
 .about-section,
+.lavka-section,
 .gallery-section,
 .contacts-section {
   padding: clamp(58px, 8vw, 116px) clamp(18px, 4vw, 54px);
@@ -815,6 +817,58 @@ h3 {
   font-size: 13px;
 }
 
+.lavka-section {
+  background: var(--paper);
+}
+
+.lavka-head {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) auto;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+
+.lavka-head h2 {
+  margin-bottom: 0;
+}
+
+.lavka-content {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(22px, 3vw, 42px);
+  max-width: 1180px;
+  margin-bottom: clamp(32px, 5vw, 64px);
+  padding-top: clamp(20px, 2.4vw, 30px);
+  border-top: 1px solid var(--line);
+}
+
+.lavka-content p {
+  margin: 0;
+  color: #555147;
+  font-size: clamp(15px, 1.12vw, 17px);
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.lavka-carousel {
+  margin-top: 0;
+}
+
+.lavka-track {
+  padding-bottom: 10px;
+}
+
+.gallery-slide.lavka-slide {
+  flex: 0 0 min(390px, 72vw);
+  background: var(--paper-soft);
+}
+
+.gallery-slide.lavka-slide img {
+  height: clamp(420px, 42vw, 620px);
+  filter: contrast(1.02) saturate(0.94);
+}
+
 .gallery-head {
   align-items: end;
 }
@@ -1027,6 +1081,7 @@ h3 {
   }
 
   .section-head,
+  .lavka-head,
   .about-section,
   .contacts-section {
     grid-template-columns: 1fr;
@@ -1042,6 +1097,10 @@ h3 {
 
   .about-columns {
     grid-template-columns: 1fr;
+  }
+
+  .lavka-content {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .about-photo figcaption {
@@ -1062,6 +1121,10 @@ h3 {
 
   .gallery-slide img {
     height: 420px;
+  }
+
+  .gallery-slide.lavka-slide img {
+    height: 500px;
   }
 
   .site-footer {
@@ -1110,6 +1173,18 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .lavka-content {
+    grid-template-columns: 1fr;
+  }
+
+  .lavka-slide {
+    flex-basis: min(320px, 84vw);
+  }
+
+  .gallery-slide.lavka-slide img {
+    height: 430px;
+  }
+
   .about-copy h2 {
     font-size: clamp(72px, 21vw, 92px);
   }
@@ -1134,6 +1209,7 @@ h3 {
 
   .menu-section,
   .about-section,
+  .lavka-section,
   .gallery-section,
   .contacts-section {
     padding: 52px 16px;

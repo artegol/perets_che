@@ -1208,10 +1208,6 @@ const state = {
 const els = {
   categories: document.querySelector("[data-categories]"),
   products: document.querySelector("[data-products]"),
-  galleryCarousel: document.querySelector("[data-gallery-carousel]"),
-  galleryTrack: document.querySelector("[data-gallery-track]"),
-  galleryPrev: document.querySelector("[data-gallery-prev]"),
-  galleryNext: document.querySelector("[data-gallery-next]"),
 };
 
 const pepperLayer = document.querySelector(".pepper-layer");
@@ -1442,86 +1438,99 @@ function updatePepperShift() {
   document.body.style.setProperty("--pepper-shift", `${window.scrollY}px`);
 }
 
-function setupGalleryCarousel() {
-  if (!els.galleryTrack || prefersReducedMotion.matches) {
+function setupCarousels() {
+  const tracks = document.querySelectorAll("[data-carousel-track]");
+
+  if (!tracks.length || prefersReducedMotion.matches) {
     return;
   }
 
-  let isPaused = false;
-  let animationFrameId = null;
-  let lastTimestamp = 0;
-  const speed = 24;
+  const animationFrameIds = [];
 
-  const getStep = () => {
-    const firstSlide = els.galleryTrack.querySelector(".gallery-slide");
+  tracks.forEach((track) => {
+    const section = track.closest("section") || document;
+    const carousel = track.closest("[data-carousel]");
+    const prev = section.querySelector("[data-carousel-prev]");
+    const next = section.querySelector("[data-carousel-next]");
+    let isPaused = false;
+    let animationFrameId = null;
+    let lastTimestamp = 0;
+    const speed = 24;
 
-    if (!firstSlide) {
-      return els.galleryTrack.clientWidth * 0.8;
-    }
+    const getStep = () => {
+      const firstSlide = track.querySelector(".gallery-slide");
 
-    const styles = window.getComputedStyle(els.galleryTrack);
-    const gap = Number.parseFloat(styles.columnGap || styles.gap) || 0;
-    return firstSlide.getBoundingClientRect().width + gap;
-  };
-
-  const scrollByStep = (direction) => {
-    els.galleryTrack.scrollBy({
-      left: getStep() * direction,
-      behavior: "smooth",
-    });
-  };
-
-  const tick = (timestamp) => {
-    if (!lastTimestamp) {
-      lastTimestamp = timestamp;
-    }
-
-    const delta = timestamp - lastTimestamp;
-    lastTimestamp = timestamp;
-
-    if (!isPaused) {
-      const maxScroll = els.galleryTrack.scrollWidth - els.galleryTrack.clientWidth;
-      els.galleryTrack.scrollLeft += (speed * delta) / 1000;
-
-      if (els.galleryTrack.scrollLeft >= maxScroll - 1) {
-        els.galleryTrack.scrollTo({ left: 0, behavior: "auto" });
+      if (!firstSlide) {
+        return track.clientWidth * 0.8;
       }
-    }
+
+      const styles = window.getComputedStyle(track);
+      const gap = Number.parseFloat(styles.columnGap || styles.gap) || 0;
+      return firstSlide.getBoundingClientRect().width + gap;
+    };
+
+    const scrollByStep = (direction) => {
+      track.scrollBy({
+        left: getStep() * direction,
+        behavior: "smooth",
+      });
+    };
+
+    const tick = (timestamp) => {
+      if (!lastTimestamp) {
+        lastTimestamp = timestamp;
+      }
+
+      const delta = timestamp - lastTimestamp;
+      lastTimestamp = timestamp;
+
+      if (!isPaused) {
+        const maxScroll = track.scrollWidth - track.clientWidth;
+        track.scrollLeft += (speed * delta) / 1000;
+
+        if (track.scrollLeft >= maxScroll - 1) {
+          track.scrollTo({ left: 0, behavior: "auto" });
+        }
+      }
+
+      animationFrameId = window.requestAnimationFrame(tick);
+    };
+
+    const pause = () => {
+      isPaused = true;
+    };
+
+    const resume = () => {
+      isPaused = false;
+    };
+
+    prev?.addEventListener("click", () => {
+      pause();
+      scrollByStep(-1);
+    });
+
+    next?.addEventListener("click", () => {
+      pause();
+      scrollByStep(1);
+    });
+
+    carousel?.addEventListener("mouseenter", pause);
+    carousel?.addEventListener("mouseleave", resume);
+    carousel?.addEventListener("focusin", pause);
+    carousel?.addEventListener("focusout", resume);
+    track.addEventListener("pointerdown", pause);
+    track.addEventListener("pointerup", resume);
 
     animationFrameId = window.requestAnimationFrame(tick);
-  };
-
-  const pause = () => {
-    isPaused = true;
-  };
-
-  const resume = () => {
-    isPaused = false;
-  };
-
-  els.galleryPrev?.addEventListener("click", () => {
-    pause();
-    scrollByStep(-1);
+    animationFrameIds.push(() => {
+      if (animationFrameId) {
+        window.cancelAnimationFrame(animationFrameId);
+      }
+    });
   });
-
-  els.galleryNext?.addEventListener("click", () => {
-    pause();
-    scrollByStep(1);
-  });
-
-  els.galleryCarousel?.addEventListener("mouseenter", pause);
-  els.galleryCarousel?.addEventListener("mouseleave", resume);
-  els.galleryCarousel?.addEventListener("focusin", pause);
-  els.galleryCarousel?.addEventListener("focusout", resume);
-  els.galleryTrack.addEventListener("pointerdown", pause);
-  els.galleryTrack.addEventListener("pointerup", resume);
-
-  animationFrameId = window.requestAnimationFrame(tick);
 
   window.addEventListener("pagehide", () => {
-    if (animationFrameId) {
-      window.cancelAnimationFrame(animationFrameId);
-    }
+    animationFrameIds.forEach((cancelAnimationFrame) => cancelAnimationFrame());
   });
 }
 
@@ -1562,4 +1571,4 @@ if (pepperLayer) {
 
 renderCategories();
 renderProducts();
-setupGalleryCarousel();
+setupCarousels();
