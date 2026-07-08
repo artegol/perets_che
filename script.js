@@ -1462,6 +1462,48 @@ function updateHeaderState() {
   siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
 }
 
+function setupRevealAnimations() {
+  const sections = document.querySelectorAll(
+    "#about, #lavka, #founders, #gallery, #contacts",
+  );
+
+  if (!sections.length || prefersReducedMotion.matches) {
+    return;
+  }
+
+  document.body.classList.add("reveal-ready");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    },
+    {
+      rootMargin: "0px 0px -14% 0px",
+      threshold: 0.12,
+    },
+  );
+
+  sections.forEach((section) => {
+    const revealItems = section.querySelectorAll(":scope > *");
+
+    section.classList.add("reveal-section");
+
+    revealItems.forEach((item, index) => {
+      item.classList.add("reveal-item");
+      item.style.setProperty("--reveal-delay", `${Math.min(index * 90, 270)}ms`);
+    });
+
+    observer.observe(section);
+  });
+}
+
 function setupCarousels() {
   const tracks = document.querySelectorAll("[data-carousel-track]");
 
@@ -1600,4 +1642,5 @@ if (siteHeader) {
 
 renderCategories();
 renderProducts();
+setupRevealAnimations();
 setupCarousels();
