@@ -1313,6 +1313,16 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function getOptimizedCatalogImage(src) {
+  const catalogPrefix = "image/generated/catalog/";
+
+  if (!src.startsWith(catalogPrefix)) {
+    return src;
+  }
+
+  return src.replace(catalogPrefix, "image/optimized/catalog/").replace(/\.png$/i, ".webp");
+}
+
 function getCategories() {
   return [...new Set(menuItems.map((item) => item.category))];
 }
@@ -1402,7 +1412,12 @@ function renderProducts() {
       return `
         <article class="product-card" aria-label="${escapeHtml(dishName)}">
           <div class="product-image">
-            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(dishName)}" loading="lazy" />
+            <img
+              src="${escapeHtml(getOptimizedCatalogImage(item.image))}"
+              alt="${escapeHtml(dishName)}"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           ${renderHighlights(item)}
           <div class="product-body">

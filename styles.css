@@ -922,6 +922,27 @@ h3 {
   font-weight: 800;
   line-height: 1;
   backdrop-filter: blur(10px);
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.instagram-widget:hover,
+.instagram-widget:focus-visible {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.instagram-widget:hover svg,
+.instagram-widget:focus-visible svg {
+  color: #fff;
+}
+
+.instagram-widget:focus-visible {
+  outline: 2px solid rgba(207, 63, 50, 0.32);
+  outline-offset: 3px;
 }
 
 .instagram-widget svg {
