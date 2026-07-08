@@ -1210,6 +1210,7 @@ const els = {
   products: document.querySelector("[data-products]"),
 };
 
+const siteHeader = document.querySelector(".site-header");
 const pepperLayer = document.querySelector(".pepper-layer");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const prefersTapCards = window.matchMedia("(hover: none)");
@@ -1453,6 +1454,14 @@ function updatePepperShift() {
   document.body.style.setProperty("--pepper-shift", `${window.scrollY}px`);
 }
 
+function updateHeaderState() {
+  if (!siteHeader) {
+    return;
+  }
+
+  siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
+}
+
 function setupCarousels() {
   const tracks = document.querySelectorAll("[data-carousel-track]");
 
@@ -1582,6 +1591,11 @@ if (els.products) {
 if (pepperLayer) {
   updatePepperShift();
   window.addEventListener("scroll", updatePepperShift, { passive: true });
+}
+
+if (siteHeader) {
+  updateHeaderState();
+  window.addEventListener("scroll", updateHeaderState, { passive: true });
 }
 
 renderCategories();
