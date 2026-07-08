@@ -1207,6 +1207,53 @@ body.reveal-ready .reveal-section.is-visible .reveal-item {
   color: var(--ink);
 }
 
+.footer-socials {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.social-link:focus-visible {
+  outline: 2px solid rgba(207, 63, 50, 0.32);
+  outline-offset: 3px;
+}
+
+.social-link svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.social-link[href*="vk.com"] svg {
+  fill: currentColor;
+  stroke: none;
+}
+
 @media (max-width: 1180px) {
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
