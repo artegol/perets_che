@@ -35,8 +35,29 @@
       </nav>
 
       <div class="header-actions">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть навигацию"
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+          data-menu-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <a class="account-link" href="tel:+78202302206">Позвонить</a>
       </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" data-mobile-nav>
+        <a href="#menu">Меню</a>
+        <a href="#about">О ресторане</a>
+        <a href="#lavka">Мясная лавка</a>
+        <a href="#founders">Основатели</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
     </header>
 
     <main id="top">

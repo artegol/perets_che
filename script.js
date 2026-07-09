@@ -1211,9 +1211,12 @@ const els = {
 };
 
 const siteHeader = document.querySelector(".site-header");
+const mobileMenuToggle = document.querySelector("[data-menu-toggle]");
+const mobileNav = document.querySelector("[data-mobile-nav]");
 const pepperLayer = document.querySelector(".pepper-layer");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const prefersTapCards = window.matchMedia("(hover: none)");
+const mobileNavMedia = window.matchMedia("(max-width: 900px)");
 const STEAKS_NOTICE =
   "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), поэтому при приёме заказа необходимо обязательно уточнить желаемую прожарку.";
 const HIGHLIGHT_TYPES = {
@@ -1451,6 +1454,55 @@ function updateHeaderState() {
   siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
 }
 
+function setMobileNavOpen(isOpen) {
+  if (!siteHeader || !mobileMenuToggle) {
+    return;
+  }
+
+  siteHeader.classList.toggle("is-menu-open", isOpen);
+  mobileMenuToggle.setAttribute("aria-expanded", String(isOpen));
+  mobileMenuToggle.setAttribute(
+    "aria-label",
+    isOpen ? "Закрыть навигацию" : "Открыть навигацию",
+  );
+}
+
+function setupMobileNav() {
+  if (!siteHeader || !mobileMenuToggle || !mobileNav) {
+    return;
+  }
+
+  mobileMenuToggle.addEventListener("click", () => {
+    setMobileNavOpen(!siteHeader.classList.contains("is-menu-open"));
+  });
+
+  mobileNav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) {
+      setMobileNavOpen(false);
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!siteHeader.classList.contains("is-menu-open") || siteHeader.contains(event.target)) {
+      return;
+    }
+
+    setMobileNavOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setMobileNavOpen(false);
+    }
+  });
+
+  mobileNavMedia.addEventListener("change", (event) => {
+    if (!event.matches) {
+      setMobileNavOpen(false);
+    }
+  });
+}
+
 function setupRevealAnimations() {
   const sections = document.querySelectorAll(
     "#about, #lavka, #founders, #gallery, #contacts",
@@ -1631,5 +1683,6 @@ if (siteHeader) {
 
 renderCategories();
 renderProducts();
+setupMobileNav();
 setupRevealAnimations();
 setupCarousels();
