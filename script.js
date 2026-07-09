@@ -1332,14 +1332,6 @@ function getFilteredItems() {
   return menuItems.filter((item) => item.category === state.activeCategory);
 }
 
-function getDisplaySection(item) {
-  if (item.category === "СТЕЙКИ" && item.section === STEAKS_NOTICE) {
-    return "";
-  }
-
-  return item.section;
-}
-
 function renderHighlights(item) {
   const highlights = ITEM_HIGHLIGHTS[item.id] || [];
 
@@ -1407,7 +1399,6 @@ function renderProducts() {
 
   const productCards = getFilteredItems()
     .map((item) => {
-      const meta = [item.category, getDisplaySection(item)].filter(Boolean).join(" · ");
       const dishName = formatDishName(item.name);
 
       return `
@@ -1423,18 +1414,16 @@ function renderProducts() {
           ${renderHighlights(item)}
           <div class="product-body">
             <div>
-              <p class="product-meta">${escapeHtml(meta)}</p>
               <h3 class="product-title">${escapeHtml(dishName)}</h3>
+            </div>
+            <div class="product-summary">
+              <strong class="price">${escapeHtml(getPriceLabel(item))}</strong>
             </div>
             <div class="product-details">
               <p class="product-description">${escapeHtml(item.description)}</p>
               <div class="product-composition">
                 <span>Состав</span>
                 <p>${escapeHtml(item.composition)}</p>
-              </div>
-              <div class="product-footer">
-                <span>Цена</span>
-                <strong class="price">${escapeHtml(getPriceLabel(item))}</strong>
               </div>
             </div>
           </div>
