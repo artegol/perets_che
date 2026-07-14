@@ -1508,11 +1508,14 @@ function setupRevealAnimations() {
     "#about, #lavka, #founders, #gallery, #contacts",
   );
 
-  if (!sections.length || prefersReducedMotion.matches) {
+  const motionItems = document.querySelectorAll("[data-reveal]");
+
+  if (prefersReducedMotion.matches) {
     return;
   }
 
   document.body.classList.add("reveal-ready");
+  document.body.classList.add("motion-ready");
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -1543,6 +1546,26 @@ function setupRevealAnimations() {
 
     observer.observe(section);
   });
+
+  const motionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-revealed");
+        motionObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: "0px 0px -8% 0px", threshold: 0.16 },
+  );
+
+  motionItems.forEach((item, index) => {
+    item.style.setProperty("--motion-delay", `${(index % 4) * 90}ms`);
+    motionObserver.observe(item);
+  });
+
+  window.setTimeout(() => {
+    motionItems.forEach((item) => item.classList.add("is-revealed"));
+  }, 1600);
 }
 
 function setupCarousels() {
