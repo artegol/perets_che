@@ -1028,7 +1028,7 @@ const menuItems = [
     "composition": "Оливковое масло Extra Virgin",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-olivkovoe-maslo.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-olivkovoe-maslo-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1040,7 +1040,7 @@ const menuItems = [
     "composition": "Горчица дижонская, уксус столовый 9%, соль, сахар, масло подсолнечное, яичный желток",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-domashniy-mayonez.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-domashniy-mayonez-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1052,7 +1052,7 @@ const menuItems = [
     "composition": "Вологодская сметана от производителя",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-smetana.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-smetana-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1064,7 +1064,7 @@ const menuItems = [
     "composition": "На основе натурального хрена",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-hren.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-hren-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1076,7 +1076,7 @@ const menuItems = [
     "composition": "Горчица от производителя",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-gorchica.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-gorchica-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1088,7 +1088,7 @@ const menuItems = [
     "composition": "Томатный кетчуп производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-ketchup.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-ketchup-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1100,7 +1100,7 @@ const menuItems = [
     "composition": "Оригинальный рецепт собственного производства",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-sous-barbekyu.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-sous-barbekyu-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1112,7 +1112,7 @@ const menuItems = [
     "composition": "Сырный соус производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-syrnyy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-syrnyy-sous-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1124,7 +1124,7 @@ const menuItems = [
     "composition": "Кетчуп, красный лук, кинза, базилик, петрушка",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-shashlychnyy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-shashlychnyy-sous-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1136,7 +1136,7 @@ const menuItems = [
     "composition": "Говяжьи кости, лук шалот, лук порей, репчатый лук, морковь, корень петрушки, лавровый лист, черный и душистый перец, томатный соус, красное вино",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-myasnoy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-myasnoy-sous-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1148,7 +1148,7 @@ const menuItems = [
     "composition": "Соус Mutti, вяленые томаты, томаты в собственном соку, оливковое масло, масло вяленых томатов, перец чили, чеснок, соль, черный перец, соус барбекю, пармезан",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-firmennyy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-firmennyy-sous-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1160,7 +1160,7 @@ const menuItems = [
     "composition": "Базилик, петрушка, чеснок, соль, перец, оливковое масло, кедровый орех, пармезан",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-sous-bazilikovyy-pesto.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-sous-bazilikovyy-pesto-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1172,7 +1172,7 @@ const menuItems = [
     "composition": "Ореховый соус производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-orehovyy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-orehovyy-sous-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1184,7 +1184,7 @@ const menuItems = [
     "composition": "Цветочный мед производственный",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-med.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-med-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1196,7 +1196,7 @@ const menuItems = [
     "composition": "Ягоды вишни, сахар, вода, коньяк",
     "price": null,
     "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sousy-vishnevyy-sous.png",
+    "image": "image/generated/catalog/sauces-unified/sousy-vishnevyy-sous-top.png",
     "source": "sauce.xlsx"
   }
 ];
@@ -1218,7 +1218,8 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 const prefersTapCards = window.matchMedia("(hover: none)");
 const mobileNavMedia = window.matchMedia("(max-width: 900px)");
 const STEAKS_NOTICE =
-  "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), поэтому при приёме заказа необходимо обязательно уточнить желаемую прожарку.";
+  "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), при заказе необходимо обязательно уточнить желаемую прожарку.";
+const SAUCES_NOTICE = "Цены на соусы уточняйте в ресторане.";
 const HIGHLIGHT_TYPES = {
   hit: {
     label: "Хит",
@@ -1319,8 +1320,9 @@ function escapeHtml(value) {
 
 function getOptimizedCatalogImage(src) {
   const catalogPrefix = "image/generated/catalog/";
+  const originalCatalogPaths = [`${catalogPrefix}sauces-unified/`];
 
-  if (!src.startsWith(catalogPrefix)) {
+  if (!src.startsWith(catalogPrefix) || originalCatalogPaths.some((path) => src.startsWith(path))) {
     return src;
   }
 
@@ -1390,19 +1392,37 @@ function renderProducts() {
     return;
   }
 
-  const categoryNote =
-    state.activeCategory === "СТЕЙКИ"
-      ? `
+  let categoryNote = "";
+
+  if (state.activeCategory === "СТЕЙКИ") {
+    categoryNote = `
         <div class="category-note">
           <span>Важно</span>
           <p>${escapeHtml(STEAKS_NOTICE)}</p>
         </div>
-      `
-      : "";
+      `;
+  }
+
+  if (state.activeCategory === "СОУСЫ") {
+    categoryNote = `
+        <div class="category-note category-note--sauces">
+          <span>Стоимость</span>
+          <p>${escapeHtml(SAUCES_NOTICE)}</p>
+        </div>
+      `;
+  }
 
   const productCards = getFilteredItems()
     .map((item) => {
       const dishName = formatDishName(item.name);
+      const priceLabel = state.activeCategory === "СОУСЫ" ? "" : getPriceLabel(item);
+      const productSummary = priceLabel
+        ? `
+            <div class="product-summary">
+              <strong class="price">${escapeHtml(priceLabel)}</strong>
+            </div>
+          `
+        : "";
 
       return `
         <article class="product-card" aria-label="${escapeHtml(dishName)}">
@@ -1419,9 +1439,7 @@ function renderProducts() {
             <div>
               <h3 class="product-title">${escapeHtml(dishName)}</h3>
             </div>
-            <div class="product-summary">
-              <strong class="price">${escapeHtml(getPriceLabel(item))}</strong>
-            </div>
+            ${productSummary}
             <div class="product-details">
               <p class="product-description">${escapeHtml(item.description)}</p>
               <div class="product-composition">
@@ -1505,14 +1523,17 @@ function setupMobileNav() {
 
 function setupRevealAnimations() {
   const sections = document.querySelectorAll(
-    "#about, #lavka, #founders, #gallery, #contacts",
+    "#about, #founders, #gallery, #contacts",
   );
 
-  if (!sections.length || prefersReducedMotion.matches) {
+  const motionItems = document.querySelectorAll("[data-reveal]");
+
+  if (prefersReducedMotion.matches) {
     return;
   }
 
   document.body.classList.add("reveal-ready");
+  document.body.classList.add("motion-ready");
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -1543,6 +1564,26 @@ function setupRevealAnimations() {
 
     observer.observe(section);
   });
+
+  const motionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-revealed");
+        motionObserver.unobserve(entry.target);
+      });
+    },
+    { rootMargin: "0px 0px -8% 0px", threshold: 0.16 },
+  );
+
+  motionItems.forEach((item, index) => {
+    item.style.setProperty("--motion-delay", `${(index % 4) * 90}ms`);
+    motionObserver.observe(item);
+  });
+
+  window.setTimeout(() => {
+    motionItems.forEach((item) => item.classList.add("is-revealed"));
+  }, 1600);
 }
 
 function setupCarousels() {
@@ -1641,6 +1682,88 @@ function setupCarousels() {
   });
 }
 
+function setupAppStoreLink() {
+  const link = document.querySelector("[data-app-store-link][data-google-play-link]");
+
+  if (!link) {
+    return;
+  }
+
+  const userAgent = navigator.userAgent || "";
+  const platform = navigator.platform || "";
+  const isAndroid = /Android/i.test(userAgent);
+  const isIOS = /iPhone|iPad|iPod/i.test(userAgent) || (platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+  link.href = isAndroid && !isIOS ? link.dataset.googlePlayLink : link.dataset.appStoreLink;
+}
+
+function setupSteakStory() {
+  const story = document.querySelector("[data-steak-story]");
+  if (!story) return;
+
+  const stages = [
+    ["Blue", "46–49°C внутри"], ["Rare", "50–52°C внутри"],
+    ["Medium Rare", "54–57°C внутри"], ["Medium", "60–63°C внутри"],
+    ["Medium Well", "65–68°C внутри"], ["Well Done", "от 71°C внутри"],
+  ];
+  const frame = story.querySelector("[data-steak-frame]");
+  const images = [...story.querySelectorAll(".steak-story__image")];
+  const name = story.querySelector("[data-steak-name]");
+  const temp = story.querySelector("[data-steak-temp]");
+  const number = story.querySelector("[data-steak-number]");
+  const dots = [...story.querySelectorAll("[data-steak-dot]")];
+  let active = -1;
+
+  const update = () => {
+    const rect = story.getBoundingClientRect();
+    const distance = story.offsetHeight - window.innerHeight;
+    const progress = Math.max(0, Math.min(1, -rect.top / Math.max(distance, 1)));
+    const index = Math.min(5, Math.floor(progress * 6));
+    frame.style.setProperty("--steak-progress", progress.toFixed(3));
+    if (index === active) return;
+    active = index;
+    name.textContent = stages[index][0];
+    temp.textContent = stages[index][1];
+    number.textContent = String(index + 1).padStart(2, "0");
+    images.forEach((image, imageIndex) => image.classList.toggle("is-active", imageIndex === index));
+    dots.forEach((dot, dotIndex) => dot.classList.toggle("is-active", dotIndex === index));
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update, { passive: true });
+}
+
+function setupLavkaStory() {
+  const story = document.querySelector("[data-lavka-story]");
+  if (!story) return;
+
+  const texts = [...story.querySelectorAll("[data-lavka-text]")];
+  const dots = [...story.querySelectorAll("[data-lavka-dot]")];
+  const products = [...story.querySelectorAll(".lavka-story__product")];
+  let active = -1;
+
+  const update = () => {
+    const rect = story.getBoundingClientRect();
+    const distance = story.offsetHeight - window.innerHeight;
+    const progress = Math.max(0, Math.min(1, -rect.top / Math.max(distance, 1)));
+    const index = Math.min(texts.length - 1, Math.floor(progress * texts.length));
+
+    if (index === active) return;
+    active = index;
+
+    story.classList.remove("is-step-0", "is-step-1", "is-step-2");
+    story.classList.add(`is-step-${index}`);
+    texts.forEach((text, textIndex) => text.classList.toggle("is-active", textIndex === index));
+    dots.forEach((dot, dotIndex) => dot.classList.toggle("is-active", dotIndex === index));
+    products.forEach((product) => product.classList.add("is-active"));
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update, { passive: true });
+}
+
 if (els.categories) {
   els.categories.addEventListener("click", (event) => {
     const button = event.target.closest("[data-category]");
@@ -1686,3 +1809,6 @@ renderProducts();
 setupMobileNav();
 setupRevealAnimations();
 setupCarousels();
+setupAppStoreLink();
+setupSteakStory();
+setupLavkaStory();

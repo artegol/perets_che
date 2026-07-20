@@ -28,7 +28,6 @@
       <nav class="top-nav" aria-label="Основная навигация">
         <a href="#menu">Меню</a>
         <a href="#about">О ресторане</a>
-        <a href="#lavka">Мясная лавка</a>
         <a href="#founders">Основатели</a>
         <a href="#gallery">Галерея</a>
         <a href="#contacts">Контакты</a>
@@ -53,7 +52,6 @@
       <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" data-mobile-nav>
         <a href="#menu">Меню</a>
         <a href="#about">О ресторане</a>
-        <a href="#lavka">Мясная лавка</a>
         <a href="#founders">Основатели</a>
         <a href="#gallery">Галерея</a>
         <a href="#contacts">Контакты</a>
@@ -88,7 +86,7 @@
         </svg>
       </div>
 
-      <section class="hero" aria-label="Главная">
+      <section class="hero hero--vertical-cta" aria-label="Главная">
         <div class="hero-media">
           <img
             src="image/optimized/jpg/IMG_0822.webp"
@@ -98,16 +96,54 @@
           />
         </div>
         <div class="hero-content">
-          <p class="eyebrow">Мясной ресторан</p>
+          <p class="eyebrow"><span>Мясной</span><span>ресторан</span></p>
           <h1>PERETS</h1>
           <div class="hero-actions">
-            <a class="button primary" href="#menu">Смотреть меню</a>
-            <a class="button secondary" href="#contacts">Забронировать</a>
+            <a class="hero-cta hero-cta--menu" href="#menu">
+              Смотреть меню
+              <span class="hero-cta__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+            <a class="hero-cta hero-cta--booking" href="#contacts">Забронировать</a>
           </div>
         </div>
         <div class="hero-hours" aria-label="Время работы">
-          <strong>12:00 - 00:00</strong>
-          <small>Кухня работает до 22:30</small>
+          <strong>Вс-чт 12:00 - 23:00</strong>
+          <strong>Пт-сб 12:00 - 00:00</strong>
+          <small>Кухня до 22:00 · Пт-сб до 22:30</small>
+        </div>
+      </section>
+
+      <section class="steak-story" aria-labelledby="steak-story-title" data-steak-story>
+        <div class="steak-story__sticky">
+          <div class="steak-story__heading">
+            <p>Всё начинается с</p>
+            <h2 id="steak-story-title">огня.</h2>
+          </div>
+
+          <div class="steak-story__frame" aria-hidden="true" data-steak-frame>
+            <img class="steak-story__image is-active" src="image/generated/hero/ribeye/doneness-00.webp" alt="" decoding="async" />
+            <img class="steak-story__image" src="image/generated/hero/ribeye/doneness-01.webp" alt="" loading="lazy" decoding="async" />
+            <img class="steak-story__image" src="image/generated/hero/ribeye/doneness-02.webp" alt="" loading="lazy" decoding="async" />
+            <img class="steak-story__image" src="image/generated/hero/ribeye/doneness-03.webp" alt="" loading="lazy" decoding="async" />
+            <img class="steak-story__image" src="image/generated/hero/ribeye/doneness-04.webp" alt="" loading="lazy" decoding="async" />
+            <img class="steak-story__image" src="image/generated/hero/ribeye/doneness-05.webp" alt="" loading="lazy" decoding="async" />
+          </div>
+
+          <div class="steak-story__meta" aria-live="polite">
+            <p class="steak-story__counter"><span data-steak-number>01</span> / 06</p>
+            <div>
+              <span class="steak-story__overline">Рибай · толстый край</span>
+              <strong data-steak-name>Blue</strong>
+              <small data-steak-temp>46–49°C внутри</small>
+            </div>
+          </div>
+
+          <div class="steak-story__scale" aria-hidden="true">
+            <span data-steak-dot class="is-active"></span><span data-steak-dot></span>
+            <span data-steak-dot></span><span data-steak-dot></span>
+            <span data-steak-dot></span><span data-steak-dot></span>
+          </div>
+          <p class="steak-story__hint">Листайте, чтобы выбрать прожарку</p>
         </div>
       </section>
 
@@ -157,62 +193,6 @@
           <figure class="about-photo">
             <img src="image/optimized/jpg/IMG_0831.webp" alt="Зал ресторана PERETS" loading="lazy" decoding="async" />
           </figure>
-        </div>
-      </section>
-
-      <section class="lavka-section" id="lavka">
-        <div class="lavka-head">
-          <div>
-            <p class="eyebrow">Мясная лавка</p>
-            <h2>Коптильный цех</h2>
-          </div>
-        </div>
-
-        <div class="gallery-carousel lavka-carousel" data-carousel>
-          <div class="gallery-track lavka-track" data-carousel-track>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7744.webp" alt="Колбасы и закуски мясной лавки" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7157 2.webp" alt="Ремесленные продукты мясной лавки" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7158 2.webp" alt="Витрина мясной лавки" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7163 2.webp" alt="Колбасы собственного производства" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7164 2.webp" alt="Ассортимент мясной лавки" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7739 2.webp" alt="Вяленые и копченые продукты" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7740 2.webp" alt="Мясные деликатесы на витрине" loading="lazy" decoding="async" />
-            </figure>
-            <figure class="gallery-slide lavka-slide">
-              <img src="image/optimized/jpg/lavka/IMG_7743 2.webp" alt="Готовая продукция мясной лавки" loading="lazy" decoding="async" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="lavka-content">
-          <p>
-            Создаем ремесленные колбасы, придерживаясь принципов натуральности.
-            В составе только понятные ингредиенты, а в основе каждого продукта
-            тщательно отобранное мясо и традиционные технологии производства.
-          </p>
-          <p>
-            В нашей лавке вы найдете широкий ассортимент ремесленных колбас из
-            индейки, курицы, свинины, говядины и лося, а также сыры из Рыбинска,
-            изготовленные и выдержанные из фермерского молока.
-          </p>
-          <p>
-            Ассортимент дополняют деликатесы собственного производства: лосось
-            и тунец холодного копчения, домашние соленья, оливки и авторские
-            соусы. Мы предлагаем продукты, которыми гордимся сами.
-          </p>
         </div>
       </section>
 
@@ -367,7 +347,8 @@
           </div>
           <div>
             <span>Время работы</span>
-            <strong>12:00 - 00:00</strong>
+            <strong>Вс-чт 12:00 - 23:00 · Пт-сб 12:00 - 00:00</strong>
+            <small>Кухня до 22:00 · Пт-сб до 22:30</small>
           </div>
           <div>
             <span>Телефон</span>
@@ -415,6 +396,21 @@
             <path
               d="M4.2 7.2c.1 5.8 3 9.3 8.1 9.3h.3v-3.3c1.9.2 3.3 1.6 3.9 3.3h2.8c-.7-2.5-2.5-4-3.6-4.5 1.1-.7 2.6-2.4 3-4.8h-2.5c-.5 1.8-2 3.6-3.6 3.8V7.2h-2.5v6.6c-1.6-.4-3.7-2.4-3.8-6.6H4.2Z"
             />
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://apps.apple.com/app/id6772229467"
+          target="_blank"
+          rel="noopener"
+          aria-label="Приложение PERETS"
+          data-app-store-link="https://apps.apple.com/app/id6772229467"
+          data-google-play-link="https://play.google.com/store/apps/details?id=cc.sellkit.perec1"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="7" y="2.8" width="10" height="18.4" rx="2.4" />
+            <path d="M10.4 5.5h3.2" />
+            <path d="M11.4 18.3h1.2" />
           </svg>
         </a>
       </div>
