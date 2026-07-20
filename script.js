@@ -1415,6 +1415,7 @@ function renderProducts() {
   const productCards = getFilteredItems()
     .map((item) => {
       const dishName = formatDishName(item.name);
+      const cardClass = item.category === "СОУСЫ" ? "product-card product-card--sauce" : "product-card";
       const priceLabel = state.activeCategory === "СОУСЫ" ? "" : getPriceLabel(item);
       const productSummary = priceLabel
         ? `
@@ -1425,7 +1426,7 @@ function renderProducts() {
         : "";
 
       return `
-        <article class="product-card" aria-label="${escapeHtml(dishName)}">
+        <article class="${cardClass}" aria-label="${escapeHtml(dishName)}">
           <div class="product-image">
             <img
               src="${escapeHtml(getOptimizedCatalogImage(item.image))}"
