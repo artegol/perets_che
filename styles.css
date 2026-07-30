@@ -1034,12 +1034,6 @@ body.motion-ready [data-reveal="image"].is-revealed img { opacity: 1; transform:
   font-size: 13px;
 }
 
-.price {
-  color: var(--ink);
-  font-size: 18px;
-  font-weight: 850;
-}
-
 .about-section {
   display: grid;
   grid-template-columns: minmax(360px, 0.62fr) minmax(0, 1fr);

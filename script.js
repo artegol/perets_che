@@ -132,18 +132,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 12,
-    "name": "С ГОВЯДИНОЙ И ДОР БЛЮ",
-    "category": "САЛАТЫ",
-    "section": "МЯСНЫЕ",
-    "description": "Сочный тёплый салат с говядиной, перцем гриль и благородным сыром дор блю",
-    "composition": "Говядина, болгарский перец гриль, томаты, красный лук, кинза, сыр дор блю, салатная заправка",
-    "price": 720,
-    "priceLabel": "720",
-    "image": "image/generated/catalog/salaty-s-govyadinoy-i-dor-blyu.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 13,
     "name": "ЦЕЗАРЬ С КУРИНЫМ ФИЛЕ",
     "category": "САЛАТЫ",
@@ -168,18 +156,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 15,
-    "name": "АМЕРИКАНСКИЙ КАРТОФЕЛЬНЫЙ",
-    "category": "САЛАТЫ",
-    "section": "МЯСНЫЕ",
-    "description": "Домашний картофельный салат в американском стиле с колбасками собственного производства и пикантной заправкой",
-    "composition": "Колбаса домашняя, картофель отварной, сельдерей, яйцо, болгарский перец, зеленый лук, домашний майонез, зернистая горчица, соус ворчестер",
-    "price": 550,
-    "priceLabel": "550",
-    "image": "image/generated/catalog/salaty-amerikanskiy-kartofelnyy.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 16,
     "name": "ФИГАРО",
     "category": "САЛАТЫ",
@@ -189,18 +165,6 @@ const menuItems = [
     "price": 990,
     "priceLabel": "990",
     "image": "image/generated/catalog/salaty-figaro.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 17,
-    "name": "ЦЕЗАРЬ С ЛОСОСЕМ",
-    "category": "САЛАТЫ",
-    "section": "РЫБНЫЕ",
-    "description": "Лёгкий салат с лососем гриль, фирменным соусом «Цезарь» и нотками соуса песто",
-    "composition": "Лосось, обжаренный на гриле, сверху смазывается соусом песто, ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь», соус песто",
-    "price": 990,
-    "priceLabel": "990",
-    "image": "image/generated/catalog/salaty-cezar-s-lososem.png",
     "source": "menu.xlsx"
   },
   {
@@ -264,18 +228,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 23,
-    "name": "СИНЬОРО ПОМАДОРО",
-    "category": "САЛАТЫ",
-    "section": "ОВОЩНЫЕ",
-    "description": "Яркое сочетание трёх видов томатов со свежей зеленью и бальзамической заправкой",
-    "composition": "Томаты, вяленые томаты, черри, ромейн, айсберг, руккола, бальзамическая заправка",
-    "price": 500,
-    "priceLabel": "500",
-    "image": "image/generated/catalog/salaty-sinoro-pomadoro.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 24,
     "name": "ЗЕЛЕНЫЙ САЛАТ",
     "category": "САЛАТЫ",
@@ -300,18 +252,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 26,
-    "name": "ЦЕЗАРЬ",
-    "category": "САЛАТЫ",
-    "section": "ОВОЩНЫЕ",
-    "description": "Классический салат с хрустящими листьями салата, пармезаном и фирменным соусом «Цезарь»",
-    "composition": "Ромейн, айсберг, томаты черри, перепелиные яйца, гренки из белого хлеба, сыр пармезан, соус «Цезарь»",
-    "price": 400,
-    "priceLabel": "400",
-    "image": "image/generated/catalog/salaty-cezar.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 27,
     "name": "ИЗ СЕЗОННЫХ ОВОЩЕЙ",
     "category": "САЛАТЫ",
@@ -321,18 +261,6 @@ const menuItems = [
     "price": 400,
     "priceLabel": "400",
     "image": "image/generated/catalog/salaty-iz-sezonnyh-ovoschey.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 28,
-    "name": "ДАРЫ МОРЯ",
-    "category": "СУПЫ",
-    "section": "",
-    "description": "Насыщенный суп с морепродуктами и лососем в ароматном томатном бульоне",
-    "composition": "Куриный бульон, лосось, мидии, креветки, томаты конкассе, крем из сушёных томатов, чеснок, зеленый лук, петрушка, укроп",
-    "price": 1000,
-    "priceLabel": "1000",
-    "image": "image/generated/catalog/supy-dary-morya.png",
     "source": "menu.xlsx"
   },
   {
@@ -480,18 +408,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 41,
-    "name": "ГОВЯЖЬИ ЩЕЧКИ с картофельным пюре",
-    "category": "МЯСНЫЕ БЛЮДА",
-    "section": "ГОВЯДИНА",
-    "description": "Томлёные говяжьи щёчки с нежным картофельным пюре",
-    "composition": "Томлёные щечки (предварительно томятся с морковью, репчатым луком, тимьяном, чесноком, сахаром в томатной пасте), картофельное пюре, украшается зеленым луком",
-    "price": 1200,
-    "priceLabel": "1200",
-    "image": "image/generated/catalog/myasnye-blyuda-govyazhi-schechki-s-kartofelnym-pyure.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 42,
     "name": "ЯЗЫК ГОВЯЖИЙ с картофельным пюре",
     "category": "МЯСНЫЕ БЛЮДА",
@@ -561,18 +477,6 @@ const menuItems = [
     "price": 700,
     "priceLabel": "700",
     "image": "image/generated/catalog/myasnye-blyuda-svinina-na-grile-s-kartofelnymi-dolkami.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 48,
-    "name": "ФИЛЕ ЦЫПЛЕНКА в сливочно-грибном соусе",
-    "category": "МЯСНЫЕ БЛЮДА",
-    "section": "ПТИЦА",
-    "description": "Куриное филе в сливочно-грибном соусе с песто и нежное картофельное пюре со сливочным маслом и мясным соусом",
-    "composition": "Филе куриной грудки, белые грибы, шампиньоны, сливки, соус песто, картофельное пюре, масло сливочное, мясной соус",
-    "price": 750,
-    "priceLabel": "750",
-    "image": "image/generated/catalog/myasnye-blyuda-file-cyplenka-v-slivochno-gribnom-souse.png",
     "source": "menu.xlsx"
   },
   {
@@ -696,18 +600,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 59,
-    "name": "КРЕВЕТКИ И РИС",
-    "category": "РЫБА И МОРЕПРОДУКТЫ",
-    "section": "МОРЕПРОДУКТЫ",
-    "description": "Сочные креветки с рассыпчатым рисом, сливочным маслом, чесноком, зеленым луком и черным перцем",
-    "composition": "Креветки, рис отварной, сливочное масло, соль, перец, чеснок, зелёный лук",
-    "price": 950,
-    "priceLabel": "950",
-    "image": "image/generated/catalog/ryba-i-moreprodukty-krevetki-i-ris.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 60,
     "name": "СКОВОРОДА МИДИЙ И КРЕВЕТОК",
     "category": "РЫБА И МОРЕПРОДУКТЫ",
@@ -741,18 +633,6 @@ const menuItems = [
     "price": 800,
     "priceLabel": "800",
     "image": "image/generated/catalog/burgery-bif.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 63,
-    "name": "КАБАН БУРГЕР",
-    "category": "БУРГЕРЫ",
-    "section": "",
-    "description": "Сочный бургер со свиной котлетой, сыром чеддер и шашлычным соусом",
-    "composition": "Булочка для бургера, свиная котлета, сыр чеддер, салат айсберг, маринованный красный лук (яблочный уксус, растительное масло, соль, сахар), соус",
-    "price": 600,
-    "priceLabel": "600",
-    "image": "image/generated/catalog/burgery-kaban-burger.png",
     "source": "menu.xlsx"
   },
   {
@@ -852,30 +732,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 72,
-    "name": "ЦУКИНИ ГРИЛЬ",
-    "category": "ГАРНИРЫ",
-    "section": "",
-    "description": "Нежные цукини, обжаренные на гриле с чесноком и специями, подаются со сметаной",
-    "composition": "Цукини, чеснок, соль, перец, подсолнечное масло, сметана",
-    "price": 250,
-    "priceLabel": "250",
-    "image": "image/generated/catalog/garniry-cukini-gril.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 73,
-    "name": "ШАМПИНЬОНЫ ГРИЛЬ",
-    "category": "ГАРНИРЫ",
-    "section": "",
-    "description": "Ароматные шампиньоны гриль со сливочным маслом и чесноком",
-    "composition": "Шампиньоны, черри, соль, перец, чеснок, петрушка, сливочное масло, бальзамический уксус",
-    "price": 250,
-    "priceLabel": "250",
-    "image": "image/generated/catalog/garniry-shampinony-gril.png",
-    "source": "menu.xlsx"
-  },
-  {
     "id": 74,
     "name": "КАРТОФЕЛЬ С ГРИБАМИ",
     "category": "ГАРНИРЫ",
@@ -885,30 +741,6 @@ const menuItems = [
     "price": 250,
     "priceLabel": "250",
     "image": "image/generated/catalog/garniry-kartofel-s-gribami.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 75,
-    "name": "ГРЕЧКА С БЕЛЫМИ ГРИБАМИ",
-    "category": "ГАРНИРЫ",
-    "section": "",
-    "description": "Ароматная гречка с овощами и белыми грибами и маринованным огурцом",
-    "composition": "Гречка, белые грибы, лук, морковь, соль, сливочное масло, маринованный огурец",
-    "price": 250,
-    "priceLabel": "250",
-    "image": "image/generated/catalog/garniry-grechka-s-belymi-gribami.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 76,
-    "name": "РИС",
-    "category": "ГАРНИРЫ",
-    "section": "",
-    "description": "Рассыпчатый отварной рис с вологодским сливочным маслом",
-    "composition": "Рис отварной, сливочное масло, соль",
-    "price": 200,
-    "priceLabel": "200",
-    "image": "image/generated/catalog/garniry-ris.png",
     "source": "menu.xlsx"
   },
   {
@@ -972,66 +804,6 @@ const menuItems = [
     "source": "menu.xlsx"
   },
   {
-    "id": 82,
-    "name": "БОЛОНЬЕЗЕ",
-    "category": "ПАСТЫ",
-    "section": "",
-    "description": "Фетучини с густым мясным соусом из говядины, томатов и чеснока, приготовленным по мотивам классического итальянского рецепта",
-    "composition": "Феттучини, соус болоньезе (рубленная говядина, репчатый лук, чеснок, орегано, протертые томаты), пармезан",
-    "price": 750,
-    "priceLabel": "750",
-    "image": "image/generated/catalog/pasty-boloneze.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 83,
-    "name": "ФРУКТЫ НА ГРИЛЕ",
-    "category": "ДЕСЕРТЫ НА ГРИЛЕ",
-    "section": "",
-    "description": "Карамелизированные фрукты, обжаренные на гриле, подаются с шариком мороженого и взбитыми сливками",
-    "composition": "Яблоко, груша, банан, лимонный фреш, тимьян, сахар, мороженое, взбитые сливки",
-    "price": 400,
-    "priceLabel": "400",
-    "image": "image/generated/catalog/deserty-na-grile-fruktf-na-grile.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 84,
-    "name": "ГРУША СО СЛИВОЧНЫМ СЫРОМ",
-    "category": "ДЕСЕРТЫ НА ГРИЛЕ",
-    "section": "",
-    "description": "Груша гриль с нежным сливочным сыром и бальзамическим кремом",
-    "composition": "Груша, творожный сыр, оливковое масло, тимьян, бальзамический крем",
-    "price": 400,
-    "priceLabel": "400",
-    "image": "image/generated/catalog/deserty-na-grile-grusha-so-slivochnym-syrom.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 85,
-    "name": "ГРУША С КАРАМЕЛЬЮ И МОРОЖЕНЫМ",
-    "category": "ДЕСЕРТЫ НА ГРИЛЕ",
-    "section": "",
-    "description": "Груша гриль с карамелью, попкорном, ванильным мороженым и взбитыми сливками",
-    "composition": "Груша, оливковое масло, тимьян, мороженое, взбитые сливки, попкорн, карамельный топинг",
-    "price": 400,
-    "priceLabel": "400",
-    "image": "image/generated/catalog/deserty-na-grile-grusha-s-karamelyu-i-morozhenym.png",
-    "source": "menu.xlsx"
-  },
-  {
-    "id": 86,
-    "name": "ОЛИВКОВОЕ МАСЛО",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Натуральное оливковое масло первого холодного отжима с мягким вкусом и характерным ароматом",
-    "composition": "Оливковое масло Extra Virgin",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-olivkovoe-maslo-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
     "id": 87,
     "name": "ДОМАШНИЙ МАЙОНЕЗ",
     "category": "СОУСЫ",
@@ -1041,18 +813,6 @@ const menuItems = [
     "price": null,
     "priceLabel": "Цена в ресторане",
     "image": "image/generated/catalog/sauces-unified/sousy-domashniy-mayonez-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
-    "id": 88,
-    "name": "СМЕТАНА",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Вологодская сметана с густой текстурой",
-    "composition": "Вологодская сметана от производителя",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-smetana-top.png",
     "source": "sauce.xlsx"
   },
   {
@@ -1104,18 +864,6 @@ const menuItems = [
     "source": "sauce.xlsx"
   },
   {
-    "id": 93,
-    "name": "СЫРНЫЙ СОУС",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Нежный сливочно-сырный соус с бархатистой текстурой",
-    "composition": "Сырный соус производственный",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-syrnyy-sous-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
     "id": 94,
     "name": "ШАШЛЫЧНЫЙ СОУС",
     "category": "СОУСЫ",
@@ -1150,54 +898,6 @@ const menuItems = [
     "priceLabel": "Цена в ресторане",
     "image": "image/generated/catalog/sauces-unified/sousy-firmennyy-sous-top.png",
     "source": "sauce.xlsx"
-  },
-  {
-    "id": 97,
-    "name": "СОУС БАЗИЛИКОВЫЙ ПЕСТО",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Ароматный соус собственного производства на основе базилика, оливкового масла и пармезана",
-    "composition": "Базилик, петрушка, чеснок, соль, перец, оливковое масло, кедровый орех, пармезан",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-sous-bazilikovyy-pesto-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
-    "id": 98,
-    "name": "ОРЕХОВЫЙ СОУС",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Нежный соус с насыщенным ореховым вкусом и кремовой текстурой",
-    "composition": "Ореховый соус производственный",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-orehovyy-sous-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
-    "id": 99,
-    "name": "МЕД",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Натуральный цветочный мед с мягким ароматом и сладким послевкусием",
-    "composition": "Цветочный мед производственный",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-med-top.png",
-    "source": "sauce.xlsx"
-  },
-  {
-    "id": 100,
-    "name": "ВИШНЕВЫЙ СОУС",
-    "category": "СОУСЫ",
-    "section": "",
-    "description": "Ароматный ягодный соус с кусочками вишни и легкими нотками коньяка",
-    "composition": "Ягоды вишни, сахар, вода, коньяк",
-    "price": null,
-    "priceLabel": "Цена в ресторане",
-    "image": "image/generated/catalog/sauces-unified/sousy-vishnevyy-sous-top.png",
-    "source": "sauce.xlsx"
   }
 ];
 
@@ -1219,7 +919,6 @@ const prefersTapCards = window.matchMedia("(hover: none)");
 const mobileNavMedia = window.matchMedia("(max-width: 900px)");
 const STEAKS_NOTICE =
   "Все стейки подаются без гарнира и без соуса (кроме Филе Миньон и Скерт-стейка), при заказе необходимо обязательно уточнить желаемую прожарку.";
-const SAUCES_NOTICE = "Цены на соусы уточняйте в ресторане.";
 const HIGHLIGHT_TYPES = {
   hit: {
     label: "Хит",
@@ -1286,28 +985,10 @@ const ITEM_HIGHLIGHTS = {
   81: ["sport"],
 };
 
-const currency = new Intl.NumberFormat("ru-RU", {
-  style: "currency",
-  currency: "RUB",
-  maximumFractionDigits: 0,
-});
-
-function formatPrice(value) {
-  if (!Number.isFinite(value)) {
-    return null;
-  }
-
-  return currency.format(value).replace("RUB", "₽").trim();
-}
-
 function formatDishName(name) {
   const normalizedName = String(name).trim().toLocaleLowerCase("ru-RU");
 
   return normalizedName.charAt(0).toLocaleUpperCase("ru-RU") + normalizedName.slice(1);
-}
-
-function getPriceLabel(item) {
-  return formatPrice(item.price) || item.priceLabel || "";
 }
 
 function escapeHtml(value) {
@@ -1403,27 +1084,10 @@ function renderProducts() {
       `;
   }
 
-  if (state.activeCategory === "СОУСЫ") {
-    categoryNote = `
-        <div class="category-note category-note--sauces">
-          <span>Стоимость</span>
-          <p>${escapeHtml(SAUCES_NOTICE)}</p>
-        </div>
-      `;
-  }
-
   const productCards = getFilteredItems()
     .map((item) => {
       const dishName = formatDishName(item.name);
       const cardClass = item.category === "СОУСЫ" ? "product-card product-card--sauce" : "product-card";
-      const priceLabel = state.activeCategory === "СОУСЫ" ? "" : getPriceLabel(item);
-      const productSummary = priceLabel
-        ? `
-            <div class="product-summary">
-              <strong class="price">${escapeHtml(priceLabel)}</strong>
-            </div>
-          `
-        : "";
 
       return `
         <article class="${cardClass}" aria-label="${escapeHtml(dishName)}">
@@ -1440,7 +1104,6 @@ function renderProducts() {
             <div>
               <h3 class="product-title">${escapeHtml(dishName)}</h3>
             </div>
-            ${productSummary}
             <div class="product-details">
               <p class="product-description">${escapeHtml(item.description)}</p>
               <div class="product-composition">
